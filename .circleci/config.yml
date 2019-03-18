@@ -29,7 +29,7 @@ jobs:
       - run: yarn && yarn export
       - aws-s3/copy:
           from: out/
-          to: $SNOWFLAKE_S3
+          to: ${SNOWFLAKE_S3}
     
 workflows:
   version: 2
