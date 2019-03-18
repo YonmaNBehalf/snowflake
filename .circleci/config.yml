@@ -24,9 +24,9 @@ jobs:
   build-and-deploy:
     << : *base_defaults
     steps:
+      - run: apt-get update && apt-get install -y python-pip libpython-dev
       - checkout
       - run: yarn && yarn export
-      - run: apt-get update && apt-get install -y python-pip libpython-dev
       - aws-s3/copy:
           from: out/
           to: $SNOWFLAKE_S3
