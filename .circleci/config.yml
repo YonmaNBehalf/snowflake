@@ -28,7 +28,7 @@ jobs:
       - checkout
       - run: yarn && yarn export
       - aws-s3/copy:
-          from: out/
+          from: out
           to: ${SNOWFLAKE_S3}
     
 workflows:
