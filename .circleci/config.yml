@@ -24,7 +24,7 @@ jobs:
   build-and-deploy:
     << : *base_defaults
     steps:
-      - run: apt-get update && apt-get install -y python-pip libpython-dev
+      - run: sudo apt-get update && apt-get install -y python-pip libpython-dev
       - checkout
       - run: yarn && yarn export
       - aws-s3/copy:
