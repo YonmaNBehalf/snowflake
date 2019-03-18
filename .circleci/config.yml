@@ -19,33 +19,33 @@ prod-context: &prod-context
   filters:
     branches:
       only: master
-
-jobs:
-  build_and_deploy_dev:
+  
+jobs: 
+  build-and-deploy-dev:
     << : *base_defaults
     steps:
       - checkout
       - run: yarn && yarn export
       - aws-s3/copy:
-        from: out/
-        to: "s3://prodigy-snowflake-dev"
-    << : *dev-context
+          from: out/
+          to: "s3://prodigy-snowflake-dev"
 
-  build_and_deploy_prod:
+  build-and-deploy-prod:
     << : *base_defaults
     steps:
       - checkout
       - run: yarn && yarn export
       - aws-s3/copy:
-        from: out/
-        to: "s3://prodigy-snowflake-production"
-    << : *prod-context
+          from: out/
+          to: "s3://prodigy-snowflake-production"
     
 workflows:
   version: 2
-  build_and_deploy_dev:
+  dev:
     jobs:
-      - build_and_deploy_dev
-  build_and_deploy_prod:
+      - build-and-deploy-dev:
+          <<: *dev-context
+  prod:
     jobs:
-      - build_and_deploy_prod
+      - build-and-deploy-prod:
+          <<: *prod-context
