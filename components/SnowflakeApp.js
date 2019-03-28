@@ -9,6 +9,7 @@ import type { DomainId, Milestone, MilestoneMap } from '../constants'
 import React from 'react'
 import DomainSelector from '../components/DomainSelector'
 import RoleSelector, {EMPTY_VALUE as TARGET_ROLE_EMPTY_VALUE} from '../components/RoleSelector'
+import defaultState from '../person';
 
 type SnowflakeAppState = {
   domain: DomainId,
@@ -20,7 +21,7 @@ type SnowflakeAppState = {
 
 const hashToState = (hash: String, trackIds: Array<TrackId>): ?SnowflakeAppState => {
   if (!hash) return null
-  const result = defaultState()
+  const result = defaultState
   const hashValues = hash.split('#')[1].split(',')
   if (!hashValues) return null
   trackIds.forEach((trackId, i) => {
@@ -73,34 +74,34 @@ const emptyState = (): SnowflakeAppState => {
     focusedTrackId: '1'
   }
 }
-
-const defaultState = (): SnowflakeAppState => {
-  return {
-    domain: FULLSTACK_DOMAIN,
-    name: 'Cersei Lannister',
-    title: 'Senior Full Stack Developer',
-    targetRole: TARGET_ROLE_EMPTY_VALUE,
-    milestoneByTrack: {
-      '1': 1,
-      '2': 2,
-      '3': 3,
-      '4': 2,
-      '5': 4,
-      '6': 1,
-      '7': 1,
-      '8': 4,
-      '9': 3,
-      '10': 2,
-      '11': 0,
-      '12': 4,
-      '13': 2,
-      '14': 2,
-      '15': 3,
-      '16': 0
-    },
-    focusedTrackId: '1'
-  }
-}
+//
+// const defaultState = (): SnowflakeAppState => {
+//   return {
+//     domain: FULLSTACK_DOMAIN,
+//     name: 'Cersei Lannister',
+//     title: 'Senior Full Stack Developer',
+//     targetRole: TARGET_ROLE_EMPTY_VALUE,
+//     milestoneByTrack: {
+//       '1': 1,
+//       '2': 2,
+//       '3': 3,
+//       '4': 2,
+//       '5': 4,
+//       '6': 1,
+//       '7': 1,
+//       '8': 4,
+//       '9': 3,
+//       '10': 2,
+//       '11': 0,
+//       '12': 4,
+//       '13': 2,
+//       '14': 2,
+//       '15': 3,
+//       '16': 0
+//     },
+//     focusedTrackId: '1'
+//   }
+// }
 
 const getIdForTrack = (track, tracks) => {
   return Object.keys(tracks).find(trackId => {
@@ -146,7 +147,7 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
     if (state) {
       this.setState(state)
     } else {
-      this.setState(defaultState())
+      this.setState(defaultState)
     }
   }
 
@@ -198,13 +199,6 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
               <DomainSelector
                   currentDomain={this.state.domain}
                   setDomainFn={(domain) => this.setDomain(domain)} />
-              {allRoles &&
-                <RoleSelector
-                    label={'Current role'}
-                    selectedRole={this.state.title}
-                    allRoles={allRoles}
-                    setRoleFn={(currentRole) => this.setCurrentRole(currentRole)} />
-              }
               {allRoles &&
                 <RoleSelector
                     label={'Target role'}
