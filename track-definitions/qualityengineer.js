@@ -1,7 +1,7 @@
 import commonTracks from './shared';
 
 //
-// const fullstackTracks = {
+// const qualityEngineerTracks = {
 //   "1": frontendTrack,
 //   "2": backendTrack,
 //   "3": foundationsTrack,
