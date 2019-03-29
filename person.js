@@ -24,6 +24,24 @@ const person = (): SnowflakeAppState => {
 			'15': 3,
 			'16': 0
 		},
+		momentsByTrack: {
+			'1': [{'moment': 'sfggasf'},{'moment': 'sfggasf'}],
+			'2': [{'moment': 'gsafgsfag'}],
+			'3': [{'moment': 'gfsagfsgfsa'}],
+			'4': [{'moment': 'gafsgafsgafs'}],
+			'5': [{'moment': ''}],
+			'6': [{'moment': ''}],
+			'7': [{'moment': ''}],
+			'8': [{'moment': ''}],
+			'9': [{'moment': ''}],
+			'10': [{'moment': ''}],
+			'11': [{'moment': ''}],
+			'12': [{'moment': ''}],
+			'13': [{'moment': ''}],
+			'14': [{'moment': ''}],
+			'15': [{'moment': ''}],
+			'16': [{'moment': ''}],
+		},
 		focusedTrackId: '1'
 	}
 }
