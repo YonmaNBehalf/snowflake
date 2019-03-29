@@ -14,7 +14,8 @@ type Props = {
 class TrackComponent extends React.Component<Props> {
   render() {
     const { currentMilestoneValue, track } = this.props;
-    const currentMilestone = track.milestones[currentMilestoneValue - 1]
+    const currentMilestone = track.milestones[currentMilestoneValue - 1];
+    const nextMilestone = currentMilestoneValue != track.milestones.length ? track.milestones[currentMilestoneValue] : null;
     return (
       <div className="track">
         <style jsx>{`
@@ -78,6 +79,23 @@ class TrackComponent extends React.Component<Props> {
               <h4>{currentMilestone.examples ? 'Example tasks:' : ''}</h4>
               <ul>
                 {currentMilestone.examples ? currentMilestone.examples.map((example, i) => (
+                  <li key={i}>{example}</li>
+                )) : ''}
+              </ul>
+            </div>
+          ) : null}
+          {nextMilestone ? (
+            <div style={{flex: 1}}>
+              <h3>{nextMilestone.summary}</h3>
+              <h4>Example behaviors for next Milestone:</h4>
+              <ul>
+                {nextMilestone.signals.map((signal, i) => (
+                  <li key={i}>{signal}</li>
+                ))}
+              </ul>
+              <h4>{nextMilestone.examples ? 'Example tasks:' : ''}</h4>
+              <ul>
+                {nextMilestone.examples ? nextMilestone.examples.map((example, i) => (
                   <li key={i}>{example}</li>
                 )) : ''}
               </ul>
