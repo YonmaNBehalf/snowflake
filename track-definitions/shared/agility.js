@@ -11,12 +11,7 @@ const independenceTrack = {
 	      "Does not take on any extra-curricular responsibilities",
 	      "Requires frontal teaching in order to advance",
 	      "Unfocused and easily sidetracked"
-      ],
-      "examples": [
-	      "",
-	      "",
-	      "",
-      ],
+      ]
   }, {
       "summary": "",
       "signals": [
@@ -29,9 +24,10 @@ const independenceTrack = {
 	      "Stories tend to inflate or a few stories are worked on in parallel"
       ],
       "examples": [
-	      "",
-	      "",
-	      "",
+	      "Contributed in a meaningful way to an epic",
+	      "Had stories that started out as 'simple' and ended up taking much more effort",
+	      "Delved into an epic's research documents to work on its stories",
+	      "Learned about the business context of the current effort to better understand the goal for a story",
       ],
   }, {
       "summary": "",
@@ -46,9 +42,11 @@ const independenceTrack = {
 	      "Stories rarely inflate and epics keep their focus during work"
       ],
       "examples": [
-	      "",
-	      "",
-	      "",
+	      "Contributed to an epic and was able to adapt it on their own to overcome a technical difficulty without impacting others around them",
+	      "As an epic owner they were able to adapt the general plan to dynamic product circumstances",
+	      "Manages own career path using measurable goals",
+	      "Adapted technical implementation according to new understanding of business domain",
+	      "Epic effort was continuous and little context switching was done"
       ],
   }, {
       "summary": "",
@@ -56,28 +54,29 @@ const independenceTrack = {
 	      "Able to use a rudimentry implementation plan, complete its details and adapt it on the fly",
 	      "Able to resolve major surprises and problems during implementation",
 	      "Seeks guidance to expand on the existing plan and optimizes its end results",
-	      "Uses SMART personal goals to measure progress",
-	      "Invests an hour a week at a single activity or project",
+	      "Tracks personal goals to completion",
+	      "Invests an hour a week at a single activity or project that promotes the department goals",
 	      "Able to plan and organise study components for training in various topics and then able to make value out of studying alone or lead a study group",
 	      "Learns business domain nuanced considerations and is able to identify and focus on important aspects of an assignment",
 		  "Stories shrink in size and epics are completed with a minimum of changes"
       ],
       "examples": [
-	      "",
-	      "",
-	      "",
+	      "Completed an epic with minimum Product Research",
+	      "Kept project timeline and ETA despite a major change in requirements",
+	      "Used a weekly hour to implement a better automation solution for a department process",
+	      "Mastered a knowledge domain"
       ],
   }, {
       "summary": "",
       "signals": [
-	      "",
-	      "",
-	      "",
+	      "Able to drive department and personal goals without disrupting others' work",
+	      "Is not surprised by anything. Very Zen",
+	      "Career path is planned in detail with target dates for outrageous yet somehow sensible goals",
+	      "Product objectives are achieved with no code changes",
+	      "Contributes to business domain understanding of the company through keen insight and analysis"
       ],
       "examples": [
-	      "",
-	      "",
-	      "",
+	      "Like, wow.",
       ],
   }],
 };
@@ -94,12 +93,7 @@ const codingTrack = {
 			"Solutions generally are not built to be extended",
 			"Inconsistent with coding conventions",
 			"Unable to coordinate changes to avoid conflicts and merge issues"
-		],
-		"examples": [
-			"",
-			"",
-			"",
-		],
+		]
 	}, {
 		"summary": "",
 		"signals": [
@@ -112,9 +106,9 @@ const codingTrack = {
 			"Able to leverage existing personal automation",
 		],
 		"examples": [
-			"",
-			"",
-			"",
+			"Wrote code that adheres to standards and does not require future revisits to clean up",
+			"Code is written with the current iteration in mind but little extensibility is possible",
+			"Has operation issues and needs to resolve personal environment issues some times",
 		],
 	}, {
 		"summary": "",
@@ -126,12 +120,12 @@ const codingTrack = {
 			"Able to merge and overcome foreign code conflicts in a safe way without breaking uncovered code",
 			"Knows IDE usage at a high level",
 			"Able to leverage existing dev automation and also introduces new automation as needed",
-			"Number of assignments"
 		],
 		"examples": [
-			"",
-			"",
-			"",
+			"Written code is adequately covered by unit & integration tests",
+			"Successfully merged a large foreign code change with local conflicts",
+			"Reasoned about coding conventions in guild meetings",
+			"Uses the existing automation fully",
 		],
 	}, {
 		"summary": "",
@@ -141,25 +135,26 @@ const codingTrack = {
 			"Solutions are generally human readable and future proofed",
 			"Local coding conventions are kept, understood and reasoned about",
 			"Capable of performing complex CVS operations that involve multiple people and keep history and code safe",
-			"Mastered his IDE",
+			"Mastered their IDE",
 			"Leverages existing dev automation, proactively introduces new dev automation as part of her routine",
-			"Number of assignments"
 		],
 		"examples": [
-			"",
-			"",
-			"",
+			"Wrote a feature solution that is extensible and open to changes",
+			"Created IDE and personal automation which helps others in the department",
+			"Rebased and merged a complex set of conflicting changes",
 		],
 	}, {
 		"summary": "",
 		"signals": [
-			"Wrote his own IDE",
-			"Built dev automation from the ground up while providing for future requirements"
+			"Writes extremely high quality code which is elegant, simple and readable while at the same time keeps standards",
+			"Writes interlaced test coverage for own and others' code",
+			"Revolutionises coding conventions",
+			"Knows IDE usage inside and out",
+			"Demonstrates an appreciation for automation and its implementation"
 		],
 		"examples": [
-			"",
-			"",
-			"",
+			"Wrote their own damn IDE",
+			"Built dev automation from the ground up while providing for future requirements",
 		],
 	}],
 };

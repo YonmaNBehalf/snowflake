@@ -30,7 +30,8 @@ const teamworkTrack = {
 				"Prioritizes team's concerns and goals over more interesting (though relevant) objectives",
 				"Builds meaningful professional relationships with peers and supervisors",
 				"Able to describe in detail bordering assignments that will need integration to own code",
-				"Shares knowledge and expertise proactively with peers and other teams"
+				"Shares knowledge and expertise proactively with peers and other teams",
+				"Creates psychological safety for open personal conversations",
 			],
 			"examples": [
 				"Stories can be used by peers as a clear reference to collaboration",
@@ -47,6 +48,7 @@ const teamworkTrack = {
 				"Forges strong professional and personal relationships with peers and supervisors",
 				"Knows and understands implementation intimate details of other team members' work",
 				"Shares knowledge and expertise proactively and initiates a continuous dialog with peers and other teams",
+				"Promotes psychological safety for colleagues and peers to be feel free to make mistakes",
 			],
 			"examples": [
 				"Personal hour invested into tools that will improve the team's day-to-day",
@@ -56,15 +58,9 @@ const teamworkTrack = {
 		}, {
 			"summary": "",
 			"signals": [
-				"",
-				"",
-				"",
-			],
-			"examples": [
-				"",
-				"",
-				"",
-			],
+				"Creates an open ended network of friendships and cooperation in the department",
+				"Fosters a psychologically safe space for colleagues and peers to be creative in",
+			]
 		}
 	]
 };
@@ -103,6 +99,10 @@ const mentoringTrack = {
 				"Provides feeback to peers and superiors willingly"
 			],
 			"examples": [
+				"Can conduct a training session for his own team",
+				"Presented a topic they know well in a knowledge sharing or meetup",
+				"Participated in Onboarding a new employee",
+				"Granted a few feedback points to direct manager in a 1on1 meeting"
 			],
 		}, {
 			"summary": "A great teamplayer is able to act as a force multiplier for those around him, promoting the team's efforts so that the whole is greater than the sum of its parts",
@@ -115,22 +115,26 @@ const mentoringTrack = {
 				"Actively seeks to provide feeback to peers and superiors"
 			],
 			"examples": [
+				"Knowledgeable enough to instruct peers in the nuances of Spring Framework usage",
+				"Planned and executed a training session for the department",
+				"Lead the onboarding effort of a new employee so that they got to productivity earlier than anticipated",
+				"Gives feedback and coaches peers about conduct, opinions about choices and passes constructive criticism"
 			],
 		}, {
 			"summary": "",
 			"signals": [
 				"Able to instruct coworkers in technological & theoretical topics on the fly to minute detail",
-				"Capable of planning a complete training program for other employees",
-				"Able to create a detailed lesson plan for others to teach others",
+				"Impacts the entire company in a beneficial way through training and teaching",
+				"Able to create a detailed lesson plan for others to teach other departments",
 				"Capable of going into details on a random topic in knowledge sharing without specific preparation",
 				"Able to instruct a group of people using on any topic on the fly",
 				"Able to independently guide an entire team of new recruits through their first quarter at Behalf and boost them noticeably more quickly to productivity",
 				"Eagerly teaches peers and superiors and provides insights into behavior and actions"
 			],
 			"examples": [
-				"",
-				"",
-				"",
+				"Taught a new VP R&D about the technological platform, implementation practices, frameworks and practices of the department in great detail",
+				"Created a training course for colleagues about a topic that will impact company productivity",
+				"Their coaching peers and supervisors impact the entire team and benefit the entire department",
 			],
 		}
 	]

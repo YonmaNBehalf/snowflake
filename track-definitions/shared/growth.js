@@ -8,31 +8,25 @@ const engineeringTrack = {
 	      "Can independently implement simple single tier applications",
 	      "Can understand basic quick start guides"
       ],
-      "examples": [
-	      "",
-	      "",
-	      "",
-      ],
   }, {
       "summary": "",
       "signals": [
-	      "Become productive in an unfamiliar legacy application in two weeks",
+	      "Able to study an existing system and become productive in reasonable time",
 	      "Can independently implement a simple application and integrate it to an external service",
 	      "Can carry a basic technical discussion or understand basic technological articles",
 	      "Has written a few applications in at least one business domain",
 	      "Aware of security or performance concerns"
       ],
       "examples": [
-	      "",
-	      "",
-	      "",
+	      "Became productive in an unfamiliar legacy application in two weeks",
+	      "Studied, Integrated a 3rd party application and configured it for use",
+	      "Spotted an obvious security concern in own code",
       ],
   }, {
       "summary": "",
       "signals": [
 	      "Is able to solve a complex optimization issue",
-	      "Successully add or modify a minor feature on an unfamiliar legacy application in two weeks",
-	      "Can independently implement an n-tier application",
+	      "Successully add or modify a minor feature on an unfamiliar application in reasonable time",
 	      "Can defend technological choices and understands sub-academic articles",
 	      "Can research and introduce a new technology or sub-system",
 	      "Has written numerous applications of multiple business domains",
@@ -40,9 +34,10 @@ const engineeringTrack = {
 	      "Able to implement code that has a low cost of introducing future changes"
       ],
       "examples": [
-	      "",
-	      "",
-	      "",
+	      "Profiled and solved a challenging performance issue",
+	      "Implemented a new feature in an unfamiliar domain within two weeks",
+	      "Independently implemented an n-tier application",
+	      "Reasoned and prepared for a performance issue in own code"
       ],
   }, {
       "summary": "",
@@ -55,13 +50,12 @@ const engineeringTrack = {
 	      "Can research and introduce a new technology stack",
 	      "Has written numerous applications of multiple business domains and is knowledgable in technological considerations of each domain",
 	      "Capable of specifying technical requirements for security and performance concerns",
-	  "Able to implement code and upgrade existing code so that it has a low cost of introducing future changes",
-	  "Epics do not generate any after-bugs"
+		  "Able to implement code and upgrade existing code so that it has a low cost of introducing future changes",
+		  "Epics do not generate any after-bugs"
       ],
       "examples": [
-	      "",
-	      "",
-	      "",
+	      "Completed a large effort without generating any bugs after release",
+	      "Defined clear implementation guidelines to mitigate a non-functional concern",
       ],
   }, {
       "summary": "",
@@ -76,11 +70,6 @@ const engineeringTrack = {
 	      "Capable of specifying technical requirements for security and performance concerns - which won't be needed because his code will already have been optimized and hardened",
 	      "Able to implement code, upgrade existing code and teach other developers so that applications in the department have a low cost of introducing future changes"
       ],
-      "examples": [
-	      "",
-	      "",
-	      "",
-      ],
   }],
 };
 
@@ -94,14 +83,7 @@ const researchTrack = {
 			"Able to research basic concepts and simple technologies in a few days",
 			"Capable of planning implementation for a story",
 			"Able to write basic documents",
-			"Unable to correctly estimate work and assignments",
-			"Planned execution generally generates unexpected technical debt which is not provided for",
 			"Code reviews usually focus on trivial details or rarely raises any concerns",
-		],
-		"examples": [
-			"",
-			"",
-			"",
 		],
 	}, {
 		"summary": "",
@@ -115,9 +97,9 @@ const researchTrack = {
 			"Code reviews raise legitimate basic concerns"
 		],
 		"examples": [
-			"",
-			"",
-			"",
+			"Wrote a basic implementation plan for an epic",
+			"Participated regularly in code reviews for peers",
+			"Studied a technological topic for use or training",
 		],
 	}, {
 		"summary": "",
@@ -130,12 +112,12 @@ const researchTrack = {
 			"Can write a detailed instructions document for others to use",
 			"Can correctly estimate all aspects of an assignment of personal work or some aspects for others",
 			"Planned execution generates unexpected technical debt that can be generally be postponed",
-			"Code reviews are more in depth and concerns are raised for standards and cleanliness."
+			"Code reviews are in depth and concerns are raised for standards and cleanliness."
 		],
 		"examples": [
-			"",
-			"",
-			"",
+			"Researched and mastered a new business domain's workflows in a few days",
+			"Correctly estimated an epic's efforts",
+			"Created a detailed implementation plan for a large epic",
 		],
 	}, {
 		"summary": "",
@@ -151,21 +133,17 @@ const researchTrack = {
 			"Code reviews are detailed and concerns are raised for standards and edge cases."
 		],
 		"examples": [
-			"",
-			"",
-			"",
+			"Implementation plan is updated and kept correct for future reference",
+			"Researched non-functional considerations of an epic that affected implementation decisions",
+			"Epic implementation did not generate any technical debt",
 		],
 	}, {
 		"summary": "",
 		"signals": [
-			"",
-			"",
-			"",
-		],
-		"examples": [
-			"",
-			"",
-			"",
+			"Research materials are detailed, correct, insightful and are useful as white papers for customers",
+			"Implementation plan is simple, accounts for everything and includes contingencies for the eventual imperfections of the human condition",
+			"Code review comments demonstrate deep insight into the code base, its developers and their state of mind at the time",
+			"Estimates are perfect to the minute and account for bathroom breaks and long lunches in cookie"
 		],
 	}],
 };
