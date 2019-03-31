@@ -15,21 +15,18 @@ const teamworkTrack = {
 			"summary": "Teamwork starts with communication",
 			"signals": [
 				"Able to generally collaborate on an assignment by splitting tasks and later reintegrating",
-				"Capable of pair programming with few, specific people or only from a specific position",
 				"Creates basic professional relationships with others around him",
 				"Can generally explain collaborators' work and assignments",
 				"Shares knowledge and expertise with others through guild activities",
 			],
 			"examples": [
 				"An owned Epic has stories for consumption",
-				"Pair Program on an issue with a domain expert",
 				"Participates in knowledge sharing",
 			],
 		}, {
 			"summary": "A collaborator is able to become an integral part of the organisation they are part of",
 			"signals": [
 				"Able to actively collaborate on an assignment by contract or other synchronized mechanism",
-				"Capable of pair programming with anyone for a short time",
 				"Prioritizes team's concerns and goals over more interesting (though relevant) objectives",
 				"Builds meaningful professional relationships with peers and supervisors",
 				"Able to describe in detail bordering assignments that will need integration to own code",
@@ -46,7 +43,6 @@ const teamworkTrack = {
 			"summary": "A great teamplayer is able to act as a force multiplier for those around him, promoting the team's efforts so that the whole is greater than the sum of its parts",
 			"signals": [
 				"Able to actively collaborate on an assignment by working with others and galvanizing the team to greater productivity",
-				"Capable of pair programming with anyone for extended period of time, producing noticeably greater quality work",
 				"Able to extract value and promote the team's greater goals from assignments and personal efforts",
 				"Forges strong professional and personal relationships with peers and supervisors",
 				"Knows and understands implementation intimate details of other team members' work",
