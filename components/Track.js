@@ -8,12 +8,13 @@ type Props = {
   currentMilestoneValue: Milestone,
   track: Track,
   handleTrackMilestoneChangeFn: (Track, Milestone) => void,
-  categoryColorScale: (String) => String
+  categoryColorScale: (String) => String,
+  momentsByTrack: Array
 }
 
 class TrackComponent extends React.Component<Props> {
   render() {
-    const { currentMilestoneValue, track } = this.props;
+    const { currentMilestoneValue, momentsByTrack, track } = this.props;
     const currentMilestone = track.milestones[currentMilestoneValue - 1]
     return (
       <div className="track">
@@ -83,6 +84,16 @@ class TrackComponent extends React.Component<Props> {
               </ul>
             </div>
           ) : null}
+            {momentsByTrack ? (
+                <div style={{flex: 1}}>
+                    <h4>{momentsByTrack ? 'Moments:' : ''}</h4>
+                    <ul>
+                        {momentsByTrack ? momentsByTrack.map((moment, i) => (
+                            <li key={i}>{moment.moment}</li>
+                        )) : ''}
+                    </ul>
+                </div>
+            ) : null}
         </div>
       </div>
     )

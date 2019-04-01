@@ -14,6 +14,7 @@ import defaultState from '../person';
 type SnowflakeAppState = {
   domain: DomainId,
   milestoneByTrack: MilestoneMap,
+  momentsByTrack: Array,
   name: String,
   title: String,
   focusedTrackId: String,
@@ -25,8 +26,8 @@ const hashToState = (hash: String, trackIds: Array<TrackId>): ?SnowflakeAppState
   const hashValues = hash.split('#')[1].split(',')
   if (!hashValues) return null
   trackIds.forEach((trackId, i) => {
-    result.milestoneByTrack[trackId] = coerceMilestone(Number(hashValues[i]))
-  })
+    result.milestoneByTrack[trackId] = coerceMilestone(Number(hashValues[i]));
+  });
   if (hashValues[16]) result.name = decodeURI(hashValues[16])
   if (hashValues[17]) result.title = decodeURI(hashValues[17])
   if (hashValues[18]) result.domain = decodeURI(hashValues[18])
@@ -54,54 +55,44 @@ const emptyState = (): SnowflakeAppState => {
     title: TARGET_ROLE_EMPTY_VALUE,
     targetRole: TARGET_ROLE_EMPTY_VALUE,
     milestoneByTrack: {
-      '1': 0,
-      '2': 0,
-      '3': 0,
-      '4': 0,
-      '5': 0,
-      '6': 0,
-      '7': 0,
-      '8': 0,
-      '9': 0,
-      '10': 0,
-      '11': 0,
-      '12': 0,
-      '13': 0,
-      '14': 0,
-      '15': 0,
-      '16': 0
+      '1': [],
+      '2': [],
+      '3': [],
+      '4': [],
+      '5': [],
+      '6': [],
+      '7': [],
+      '8': [],
+      '9': [],
+      '10': [],
+      '11': [],
+      '12': [],
+      '13': [],
+      '14': [],
+      '15': [],
+      '16': [],
+    },
+    momentsByTrack: {
+      '1': [],
+      '2': [],
+      '3': [],
+      '4': [],
+      '5': [],
+      '6': [],
+      '7': [],
+      '8': [],
+      '9': [],
+      '10': [],
+      '11': [],
+      '12': [],
+      '13': [],
+      '14': [],
+      '15': [],
+      '16': [],
     },
     focusedTrackId: '1'
   }
 }
-//
-// const defaultState = (): SnowflakeAppState => {
-//   return {
-//     domain: FULLSTACK_DOMAIN,
-//     name: 'Cersei Lannister',
-//     title: 'Senior Full Stack Developer',
-//     targetRole: TARGET_ROLE_EMPTY_VALUE,
-//     milestoneByTrack: {
-//       '1': 1,
-//       '2': 2,
-//       '3': 3,
-//       '4': 2,
-//       '5': 4,
-//       '6': 1,
-//       '7': 1,
-//       '8': 4,
-//       '9': 3,
-//       '10': 2,
-//       '11': 0,
-//       '12': 4,
-//       '13': 2,
-//       '14': 2,
-//       '15': 3,
-//       '16': 0
-//     },
-//     focusedTrackId: '1'
-//   }
-// }
 
 const getIdForTrack = (track, tracks) => {
   return Object.keys(tracks).find(trackId => {
@@ -231,6 +222,7 @@ class SnowflakeApp extends React.Component<Props, SnowflakeAppState> {
             decreaseFocusedMilestoneFn={this.shiftFocusedTrackMilestoneByDelta.bind(this, -1)} />
         <Track
             currentMilestoneValue={this.state.milestoneByTrack[this.state.focusedTrackId]}
+            momentsByTrack={this.state.momentsByTrack[this.state.focusedTrackId]}
             track={tracks[this.state.focusedTrackId]}
             handleTrackMilestoneChangeFn={(trackId, milestone) => this.handleTrackMilestoneChange(trackId, milestone)}
             categoryColorScale={categoryColorScale} />
