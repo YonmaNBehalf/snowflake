@@ -25,10 +25,10 @@ const person = (): SnowflakeAppState => {
 			'16': 0
 		},
 		momentsByTrack: {
-			'1': [{'moment': 'sfggasf'},{'moment': 'sfggasf'}],
-			'2': [{'moment': 'gsafgsfag'}],
-			'3': [{'moment': 'gfsagfsgfsa'}],
-			'4': [{'moment': 'gafsgafsgafs'}],
+			'1': [{'moment': ''}],
+			'2': [{'moment': ''}],
+			'3': [{'moment': ''}],
+			'4': [{'moment': ''}],
 			'5': [{'moment': ''}],
 			'6': [{'moment': ''}],
 			'7': [{'moment': ''}],
