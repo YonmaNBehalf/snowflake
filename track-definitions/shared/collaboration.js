@@ -110,7 +110,7 @@ const mentoringTrack = {
 				"Able to instruct coworkers in technological & theoretical topics on the fly to minute detail",
 				"Able to create a basic lesson plan for teaching others",
 				"Capable of going into details on a random topic in knowledge sharing without specific preparation",
-				"Able to instruct a group of people using on any prepared topic",
+				"Able to instruct a group of people on any prepared topic",
 				"Able to independently guide a new colleague through his first quarter at Behalf and boost him quickly to productivity",
 				"Actively seeks to provide feeback to peers and superiors"
 			],
