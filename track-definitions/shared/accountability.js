@@ -25,7 +25,7 @@ const motivationTrack = {
       "signals": [
 	      "Active and alert during dailies",
 	      "Expresses company culture in own conduct, choices and activities",
-	      "Accepts critcism and leverages it to learn something new",
+	      "Accepts critcism and leverages it to improve an existing behavior",
 	      "Handles difficulties by addressing them directly or by leveraging others' expertise",
 	      "Honestly reports on problems and actively attempts to learn from incidents"
       ],
@@ -40,6 +40,7 @@ const motivationTrack = {
       "signals": [
 	      "Consistently involved in personal, team and departmental efforts as an active focal point",
 	      "Able to motivate others by expressing the company culture in personal effective behaviors and actions",
+	      "Accepts critcism and leverages it to learn something new",
 	      "Takes on menial tasks with the equal effectiveness expressed in more interesting assignments",
 	      "An optimistic & rational approach to process and team effort",
 		  "Excitement in the face of adversity",
