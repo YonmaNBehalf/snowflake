@@ -13,7 +13,7 @@
 export default [
   {
     displayName: 'Junior Full Stack Developer',
-    milestones: [3,2,3,2,2,2,2,2,2,2],
+    milestones: [2,2,2,2,2,2,2,2,2,2],
   },
   {
     displayName: 'Intermediate Full Stack Developer',
