@@ -1,77 +1,4 @@
-const engineeringTrack = {
-  "displayName": "Engineering",
-  "category": "Professional Growth",
-  "description": "Engineering is the ability to apply the minimum amount of force to the weakest point of the problem to create a sustainable solution",
-  "milestones": [{
-      "summary": "",
-      "signals": [
-	      "Can independently implement simple single tier applications",
-	      "Can understand basic quick start guides"
-      ],
-  }, {
-      "summary": "",
-      "signals": [
-	      "Able to study an existing system and become productive in reasonable time",
-	      "Can independently implement a simple application and integrate it to an external service",
-	      "Can carry a basic technical discussion or understand basic technological articles",
-	      "Has written a few applications in at least one business domain",
-	      "Aware of security or performance concerns"
-      ],
-      "examples": [
-	      "Became productive in an unfamiliar legacy application in two weeks",
-	      "Studied, Integrated a 3rd party application and configured it for use",
-	      "Spotted an obvious security concern in own code",
-      ],
-  }, {
-      "summary": "",
-      "signals": [
-	      "Is able to solve a complex optimization issue",
-	      "Successully add or modify a minor feature on an unfamiliar application in reasonable time",
-	      "Can defend technological choices and understands sub-academic articles",
-	      "Can research and introduce a new technology or sub-system",
-	      "Has written numerous applications of multiple business domains",
-	      "Aware of security & performance concerns in applications",
-	      "Able to implement code that has a low cost of introducing future changes"
-      ],
-      "examples": [
-	      "Profiled and solved a challenging performance issue",
-	      "Implemented a new feature in an unfamiliar domain within two weeks",
-	      "Independently implemented an n-tier application",
-	      "Reasoned and prepared for a performance issue in own code"
-      ],
-  }, {
-      "summary": "",
-      "signals": [
-	      "Is able to research and optimize a legacy code application.",
-	      "Successully add or modify a major feature on an unfamiliar legacy application in two weeks",
-	      "Is capable of correctly abstracting and designing an OOP project.",
-	      "Can independently implement a complex application and basic infrastructure to support it",
-	      "Can defend technological choices using complexity analysis and contrast comparison",
-	      "Can research and introduce a new technology stack",
-	      "Has written numerous applications of multiple business domains and is knowledgable in technological considerations of each domain",
-	      "Capable of specifying technical requirements for security and performance concerns",
-		  "Able to implement code and upgrade existing code so that it has a low cost of introducing future changes",
-		  "Epics do not generate any after-bugs"
-      ],
-      "examples": [
-	      "Completed a large effort without generating any bugs after release",
-	      "Defined clear implementation guidelines to mitigate a non-functional concern",
-      ],
-  }, {
-      "summary": "",
-      "signals": [
-	      "Is able to research and optimize and improve a legacy code application.",
-	      "Successully add or modify a feature on an unfamiliar legacy application with no repercussions or unexpected results in two weeks.",
-	      "Is capable of correctly abstracting and designing an OOP project.",
-	      "Can independently implement a complex application and an enterprise-ready infrastructure to support it",
-	      "Can defend technological choices and can write academic-level articles and theorems",
-	      "Can research, develop and introduce a new technology stack",
-	      "Has written numerous applications of multiple business domains and is knowledgable in technological considerations of each domain",
-	      "Capable of specifying technical requirements for security and performance concerns - which won't be needed because his code will already have been optimized and hardened",
-	      "Able to implement code, upgrade existing code and teach other developers so that applications in the department have a low cost of introducing future changes"
-      ],
-  }],
-};
+
 
 const researchTrack = {
 	"displayName": "Research and Analysis",
@@ -149,6 +76,5 @@ const researchTrack = {
 };
 
 export default {
-	"8": engineeringTrack,
 	"9": researchTrack,
 }
