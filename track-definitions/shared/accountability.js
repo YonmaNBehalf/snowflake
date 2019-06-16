@@ -80,6 +80,7 @@ const thoroughnessTrack = {
 			"Technical debt is piled high and code requires reworking to be future ready",
 			"Bugs are only superficially analysed and rarely actually reproduced",
 			"Changes and fixes require followup",
+			"Code reviews usually focus on trivial details or rarely raises any concerns",
 			"Unfocused efforts provide inconsistent and ineffective outcomes",
 			"Unforeseen collateral regressions are common after changes"
 		],
@@ -93,7 +94,8 @@ const thoroughnessTrack = {
 			"Changes and fixes sometimes require followup or may cause mild undesired collateral effects",
 			"Able to find the obscure root cause of an issue through sheer luck",
 			"Pursues objectives to completion, even if not in a timely manner",
-			"Unforeseen collateral regressions are rare after changes"
+			"Unforeseen collateral regressions are rare after changes",
+			"Code reviews raise legitimate basic concerns"
 		],
 		"examples": [
 			"A one-sentence epic requirements description were elaborated upon",
@@ -111,8 +113,11 @@ const thoroughnessTrack = {
 			"Bugs are reproduced and diagnosed prior to implementation",
 			"Changes and fixes rarely requires followup",
 			"Able to find the obscure root cause of an issue through intuition and guesswork",
+			"Code reviews are in depth and concerns are raised for standards and cleanliness.",
 			"Focuses on selected priorities with minimal slack time",
-			"Collateral effects for changes are rare and otherwise usually mitigated"
+			"Collateral effects for changes are rare and otherwise usually mitigated",
+			"Code reviews are detailed and concerns are raised for standards and edge cases."
+
 		],
 		"examples": [
 			"Created a research document and schematics for the implementation aspects of an effort",
@@ -134,7 +139,8 @@ const thoroughnessTrack = {
 			"Changes and fixes are thoroughly tested and require no additional work",
 			"Able to find the obscure root cause of an issue through careful analysis of data or code",
 			"Focused and driven efforts and highly effective at producing accurate results",
-			"Collateral effects are extremely rare and never surprising"
+			"Collateral effects are extremely rare and never surprising",
+			"Code review comments demonstrate deep insight into the code base, its developers and their state of mind at the time"
 		],
 		"examples": [
 			"Trained colleagues on the domain subject matter",
