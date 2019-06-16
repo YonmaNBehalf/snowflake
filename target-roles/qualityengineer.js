@@ -13,14 +13,14 @@
 export default [
   {
     displayName: 'Junior Quality Engineer',
-    milestones: [2,1,2,2,2,1,2],
+    milestones: [2,1,2,2,1,2,1,2],
   },
   {
     displayName: 'Intermediate Quality Engineer',
-    milestones: [3,2,3,3,3,2,3],
+    milestones: [3,2,3,3,2,3,2,3],
   },
   {
     displayName: 'Senior Quality Engineer',
-    milestones: [4,3,3,3,3,3,3],
+    milestones: [4,3,3,3,3,3,3,3],
   }
 ];
