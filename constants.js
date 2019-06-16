@@ -3,9 +3,6 @@ import * as d3 from 'd3'
 
 import FULLSTACK_TRACKS from './track-definitions/fullstack';
 import QUALITY_TRACKS from './track-definitions/qualityengineer';
-import OPS_TRACKS from './track-definitions/ops';
-import GAME_TRACKS from './track-definitions/game';
-import BACKEND_TRACKS from './track-definitions/backend';
 
 import FULLSTACK_TARGET_ROLES from './target-roles/fullstack';
 import QUALITY_TARGET_ROLES from './target-roles/qualityengineer';
@@ -14,9 +11,6 @@ export const milestones = [0, 1, 2, 3, 4, 5]
 
 export const FULLSTACK_DOMAIN = 'Full Stack';
 export const QUALITY_DOMAIN = 'Quality';
-export const OPS_DOMAIN = 'Ops';
-export const GAME_DOMAIN = 'Game';
-export const BACKEND_DOMAIN = 'Backend';
 
 export const domains = [
   FULLSTACK_DOMAIN,
@@ -37,9 +31,6 @@ export type Track = {
 const allTracks = {
   [FULLSTACK_DOMAIN]: FULLSTACK_TRACKS,
   [QUALITY_DOMAIN]: QUALITY_TRACKS,
-  [OPS_DOMAIN]: OPS_TRACKS,
-  [GAME_DOMAIN]: GAME_TRACKS,
-  [BACKEND_DOMAIN]: BACKEND_TRACKS,
 }
 
 const targetRoles = {
