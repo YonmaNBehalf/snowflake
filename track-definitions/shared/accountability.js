@@ -13,6 +13,7 @@ const motivationTrack = {
       "summary": "",
       "signals": [
 	      "Shows up to dailies, updates peers",
+	      "Aware of general department priorities and plans",
 	      "Reports progress honestly",
 	      "Accepts criticism gracefully"
       ],
@@ -25,6 +26,7 @@ const motivationTrack = {
       "signals": [
 	      "Active and alert during dailies",
 	      "Expresses company culture in own conduct, choices and activities",
+	      "Generally understands the company goals and how those affect the department",
 	      "Accepts critcism and leverages it to improve an existing behavior",
 	      "Handles difficulties by addressing them directly or by leveraging others' expertise",
 	      "Honestly reports on problems and actively attempts to learn from incidents"
@@ -39,6 +41,7 @@ const motivationTrack = {
       "summary": "",
       "signals": [
 	      "Consistently involved in personal, team and departmental efforts as an active focal point",
+	      "Intimately understands the company's set of priorities, their cascade to department goals and team priorities",
 	      "Able to motivate others by expressing the company culture in personal effective behaviors and actions",
 	      "Accepts critcism and leverages it to learn something new",
 	      "Takes on menial tasks with the equal effectiveness expressed in more interesting assignments",
@@ -52,6 +55,7 @@ const motivationTrack = {
 	      "Worked on bugs and used the opportunity to improve others' deliveries",
 	      "Considered a company policy and challenged it to improve it",
 	      "Ran Post-Mortem on own production incident. Grew from the experience in a way which benefited the department",
+	      "Can explain how the current assignment specifically contributes to the company's high-level goal"
       ],
   }, {
       "summary": "",
