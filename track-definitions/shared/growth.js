@@ -11,6 +11,7 @@ const researchTrack = {
 			"Capable of planning implementation for a story",
 			"Able to write basic documents",
 			"Code reviews usually focus on trivial details or rarely raises any concerns",
+			"Chosen implementation plan is naive or completely ignores underlying assumptions"
 		],
 	}, {
 		"summary": "",
@@ -21,6 +22,7 @@ const researchTrack = {
 			"Can write a quickstart document for others to use",
 			"Can correctly estimate a single aspect of personal work",
 			"Planned execution sometimes generates unexpected technical debt that can be handled later",
+			"Implementation plan addresses some hidden assumptions in advance",
 			"Code reviews raise legitimate basic concerns"
 		],
 		"examples": [
@@ -38,6 +40,7 @@ const researchTrack = {
 			"Can create a general plan that will be relevant and updated during the project",
 			"Can write a detailed instructions document for others to use",
 			"Can correctly estimate all aspects of an assignment of personal work or some aspects for others",
+			"Implementation exposes hidden assumptions and attempts to work them out or challenge them",
 			"Planned execution generates unexpected technical debt that can be generally be postponed",
 			"Code reviews are in depth and concerns are raised for standards and cleanliness."
 		],
@@ -57,6 +60,7 @@ const researchTrack = {
 			"Can write a detailed instructions document for others to use",
 			"Can correctly estimate all aspects of an assignment or to guide others in this process",
 			"Planned execution rarely generates unexpected technical debt",
+			"Hidden assumptions are challenged or mitigated in such a way as to pave the road for simplified implementation",
 			"Code reviews are detailed and concerns are raised for standards and edge cases."
 		],
 		"examples": [
@@ -70,7 +74,8 @@ const researchTrack = {
 			"Research materials are detailed, correct, insightful and are useful as white papers for customers",
 			"Implementation plan is simple, accounts for everything and includes contingencies for the eventual imperfections of the human condition",
 			"Code review comments demonstrate deep insight into the code base, its developers and their state of mind at the time",
-			"Estimates are perfect to the minute and account for bathroom breaks and long lunches in cookie"
+			"Estimates are perfect to the minute and account for bathroom breaks and long lunches in cookie",
+			"There are no hidden assumptions down the electric charge of an electron"
 		],
 	}],
 };
