@@ -1,7 +1,7 @@
 const teamworkTrack = {
 	"displayName": "Teamwork",
 	"category": "Collaboration",
-	"description": "Teamwork measures a person's ability to work with others towards a greater common goal",
+	"description": "Teamwork measures a person's ability to accept others and work with them towards a greater common goal",
 	"milestones": [
 		{
 			"summary": "A person unable to collaborate detracts from the team's achievements",
@@ -10,6 +10,8 @@ const teamworkTrack = {
 				"Can generally hand off assignments for others to continue",
 				"Unaware of other people's assignments and efforts",
 				"Does not share knowledge and expertise",
+				"Ignores feedback from peers",
+				"Disregards or belittles others' efforts, pains and value"
 			],
 		}, {
 			"summary": "Teamwork starts with communication",
@@ -18,10 +20,13 @@ const teamworkTrack = {
 				"Creates basic professional relationships with others around him",
 				"Can generally explain collaborators' work and assignments",
 				"Shares knowledge and expertise with others through guild activities",
+				"Uses feedback & review comments to produce correct code",
+				"Allows for others' weaknesses"
 			],
 			"examples": [
 				"An owned Epic has stories for consumption",
 				"Participates in knowledge sharing",
+				"Made minimal corrections indicated by peer feedback"
 			],
 		}, {
 			"summary": "A collaborator is able to become an integral part of the organisation they are part of",
@@ -32,13 +37,17 @@ const teamworkTrack = {
 				"Able to describe in detail bordering assignments that will need integration to own code",
 				"Shares knowledge and expertise proactively with peers and other teams",
 				"Creates psychological safety for open personal conversations",
+				"Leverages feedback and comments to improve deliveries",
+				"Empathises with peers' failures and encourages transparency"
 			],
 			"examples": [
 				"Stories can be used by peers as a clear reference to collaboration",
 				"Effectively brainstorm a great solution to a problem with colleagues",
 				"Able to broach personal issues with peers and resolve them",
 				"Initiates knowledge transfers with remote peers and colleagues",
-				"Grants feedback to peers"
+				"Granted feedback to peers",
+				"Accepted feedback and leveraged the discussion to grow and improve professionally",
+				"Sincerely contributed insight in debriefing mistakes and process improvement"
 			],
 		}, {
 			"summary": "A great teamplayer is able to act as a force multiplier for those around him, promoting the team's efforts so that the whole is greater than the sum of its parts",
@@ -49,17 +58,20 @@ const teamworkTrack = {
 				"Knows and understands implementation intimate details of other team members' work",
 				"Shares knowledge and expertise proactively and initiates a continuous dialog with peers and other teams",
 				"Promotes psychological safety for colleagues and peers to be feel free to make mistakes",
+				"Uses feedback to promote a personal and team improvement cycle"
 			],
 			"examples": [
 				"Personal hour invested into tools that will improve the team's day-to-day",
 				"Actively works with peers to promote them professionally and learn from the experience",
 				"Shares the burden of urgent assignments with the assignee in unusual circumstances",
+				"Improvement based on feedback is made into a journey useful for future efforts and other people"
 			],
 		}, {
 			"summary": "",
 			"signals": [
 				"Creates an open ended network of friendships and cooperation in the department",
 				"Fosters a psychologically safe space for colleagues and peers to be creative in",
+				"Aspires in action to become the result of peer feedback's ideal team member"
 			]
 		}
 	]
@@ -75,7 +87,8 @@ const mentoringTrack = {
 			"signals": [
 				"Incapable or unwilling of teaching others",
 				"Able to write an informative email",
-				"Does not provide peers and superiors with feedback"
+				"Does not provide peers and superiors with feedback",
+				"Code reviews given rarely include any feedback of value"
 			],
 		}, {
 			"summary": "In learning you will teach, and in teaching you will learn",
@@ -83,11 +96,13 @@ const mentoringTrack = {
 				"Able to deliver basic instructions and guidance to a coworker",
 				"Capable of summarizing a topic for knowledge sharing",
 				"Able to independently guide a new colleague through his first days at Behalf and answer basic process and procedure questions",
-				"Feedback to peers and superiors is provided upon request"
+				"Feedback and reviews to peers and superiors is provided upon request",
+				"Code reviews show some basic tenants"
 			],
 			"examples": [
 				"Granted basic feedback to a peer that asked specific questions",
 				"Prepared and delivered a basic presentation about a technical topic",
+				"Code reviews include: structure issues, implementation reasoning, questioning assumptions"
 			],
 		}, {
 			"summary": "",
@@ -96,13 +111,15 @@ const mentoringTrack = {
 				"Capable of going into details on an intimate and well known topic in knowledge sharing",
 				"Able to instruct a group of people on an intimate technological topic using a prepared & rehearsed presentation",
 				"Able to independently guide a new colleague through his first month at Behalf and answer most questions",
-				"Provides feeback to peers and superiors willingly"
+				"Provides feeback to peers and superiors willingly",
+				"Code reviews show some advanced tenants"
 			],
 			"examples": [
 				"Can conduct a training session for his own team",
 				"Presented a topic they know well in a knowledge sharing or meetup",
 				"Participated in Onboarding a new employee",
-				"Granted a few feedback points to direct manager in a 1on1 meeting"
+				"Granted a few feedback points to direct manager in a 1on1 meeting",
+				"Code reviews include: story-logic matching, functional issues, clarity, conventions, insight"
 			],
 		}, {
 			"summary": "A great teamplayer is able to act as a force multiplier for those around him, promoting the team's efforts so that the whole is greater than the sum of its parts",
@@ -112,13 +129,16 @@ const mentoringTrack = {
 				"Capable of going into details on a random topic in knowledge sharing without specific preparation",
 				"Able to instruct a group of people on any prepared topic",
 				"Able to independently guide a new colleague through his first quarter at Behalf and boost him quickly to productivity",
-				"Actively seeks to provide feeback to peers and superiors"
+				"Actively seeks to provide feeback to peers and superiors",
+				"Code reviews aspire to provide long-term value to the team"
 			],
 			"examples": [
 				"Knowledgeable enough to instruct peers in the nuances of Spring Framework usage",
 				"Planned and executed a training session for the department",
 				"Lead the onboarding effort of a new employee so that they got to productivity earlier than anticipated",
 				"Gives feedback and coaches peers about conduct, opinions about choices and passes constructive criticism"
+				"Code reviews include: Clean code, eye for details, maintainability, code & model design, names and domain considerations"
+
 			],
 		}, {
 			"summary": "",
@@ -129,12 +149,15 @@ const mentoringTrack = {
 				"Capable of going into details on a random topic in knowledge sharing without specific preparation",
 				"Able to instruct a group of people using on any topic on the fly",
 				"Able to independently guide an entire team of new recruits through their first quarter at Behalf and boost them noticeably more quickly to productivity",
-				"Eagerly teaches peers and superiors and provides insights into behavior and actions"
+				"Eagerly teaches peers and superiors and provides insights into behavior and actions",
+				"Code reviews aspire to provide long-term value to the department"
+
 			],
 			"examples": [
 				"Taught a new VP R&D about the technological platform, implementation practices, frameworks and practices of the department in great detail",
 				"Created a training course for colleagues about a topic that will impact company productivity",
 				"Their coaching peers and supervisors impact the entire team and benefit the entire department",
+				"Code reviews become the basis for major initiatives, guild discussion and case studies"
 			],
 		}
 	]
