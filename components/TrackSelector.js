@@ -15,6 +15,14 @@ class TrackSelector extends React.Component<Props> {
   render() {
     const { tracks } = this.props;
     const trackIds = Object.keys(tracks);
+    const categories = Object.values(tracks).map(track => { return track.category }).filter((category, index, self) => {return self.indexOf(category) === index});
+    /// for now we assume the tracks are in-order of category
+    const categoriesMap = Object.values(categories).map(category => {return {"category": category, "count": Object.values(tracks).reduce((count, track) =>
+      {
+        return track.category === category ? count+1 : count}
+      , 0)}});
+
+
     return (
       <table>
         <style jsx>{`
@@ -42,6 +50,14 @@ class TrackSelector extends React.Component<Props> {
           }
         `}</style>
         <tbody>
+          <tr>
+              {Object.values(categoriesMap).map(category => (
+                  <td key={category.category} colSpan={category.count} className="track-selector-label"
+                      style={{background: this.props.categoryColorScale(category.category)}}>
+                    {category.category}
+                  </td>
+              ))}
+          </tr>
           <tr>
             {trackIds.map(trackId => (
               <td key={trackId} className="track-selector-label" onClick={() => this.props.setFocusedTrackIdFn(tracks[trackId])}>
