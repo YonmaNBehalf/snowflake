@@ -25,7 +25,8 @@ const ownershipTrack = {
       "Takes up responsibility for a small or limited domain",
       "Assists in code reviews for own domains",
       "Establishes coding conventions for own domain but rarely enforces them",
-      "Responsible for a story's research, implementation and testing"
+      "Responsible for a story's research, implementation and testing",
+      "Knows enough about an epic's business considerations to make basic choices"
     ],
     "examples": [
       "Took up responsibility for a small system domain or 3rd party system",
@@ -40,7 +41,8 @@ const ownershipTrack = {
       "Consistently conducts knowledge sharing with others",
       "Enforces coding conventions in a reasonable and flexible manner",
       "Responsible for a small Epic's research, planning, implementation, testing and release",
-      "Participates in others' assignments planning"
+      "Participates in others' assignments planning",
+      "Knows about an epic's context to lead decisions"
     ],
     "examples": [
       "Regularly assisted other developers in development work in owned domain",
@@ -55,7 +57,8 @@ const ownershipTrack = {
       "Teaches others about domain activities and shares detailed knowledge about the domain",
       "Enforces coding conventions in a reasonable and flexible manner and constantly refines them",
       "Responsible for a large Epic's research, planning, implementation, testing and release",
-      "Participates in others' assignments research and planning"
+      "Participates in others' assignments research and planning",
+      "Makes strategic decisions based on an intimate awareness of an epic's considerations and business case"
     ],
     "examples": [
       "Halted sub-par code from being pushed into the domain",
