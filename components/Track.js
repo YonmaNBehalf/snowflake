@@ -55,7 +55,7 @@ class TrackComponent extends React.Component<Props> {
           <table style={{flex: 0, marginRight: 50}}>
             <tbody>
               {milestones.slice().reverse().map((milestone) => {
-                const isMet = milestone <= currentMilestoneValue
+                const isMet = milestone <= currentMilestoneValue;
                 return (
                   <tr key={milestone}>
                     <td onClick={() => this.props.handleTrackMilestoneChangeFn(track, milestone)}
@@ -89,7 +89,7 @@ class TrackComponent extends React.Component<Props> {
                     <h4>{momentsByTrack ? 'Moments:' : ''}</h4>
                     <ul>
                         {momentsByTrack ? momentsByTrack.map((moment, i) => (
-                            <li key={i}>{moment.moment}</li>
+                            moment.moment ? <li key={i}>{moment.moment}</li> : <li key={i}>Next level: {moment.improve}</li>
                         )) : ''}
                     </ul>
                 </div>
