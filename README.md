@@ -36,6 +36,10 @@ from the out library run: ```we deploy -p wmdetest```
 
 from the data library run: ```we deploy -p wmdetest```
 
+### Tests
+
+run tests (what little there are) with `yarn jest`
+
 ## Future work
 
 * Remove hardcoded values from code (like urls and custom magic like that)
