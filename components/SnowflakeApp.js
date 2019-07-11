@@ -9,94 +9,14 @@ import { eligibleTitles, trackIds, milestones, milestoneToPoints } from '../cons
 import type { Milestone, MilestoneMap, TrackId } from '../constants'
 import React from 'react'
 import Header from "./Header";
+import { hashToState, stateToHash } from "../src/hash";
+import { emptyState, defaultState } from "../src/state";
 
 type SnowflakeAppState = {
   milestoneByTrack: MilestoneMap,
   name: string,
   title: string,
   focusedTrackId: TrackId,
-}
-
-const hashToState = (hash: String): ?SnowflakeAppState => {
-  if (!hash) return null
-  const result = defaultState()
-  const hashValues = hash.split('#')[1].split(',')
-  if (!hashValues) return null
-  trackIds.forEach((trackId, i) => {
-    result.milestoneByTrack[trackId] = coerceMilestone(Number(hashValues[i]))
-  })
-  if (hashValues[16]) result.name = decodeURI(hashValues[16])
-  if (hashValues[17]) result.title = decodeURI(hashValues[17])
-  return result
-}
-
-const coerceMilestone = (value: number): Milestone => {
-  // HACK I know this is goofy but i'm dealing with flow typing
-  switch(value) {
-    case 0: return 0
-    case 1: return 1
-    case 2: return 2
-    case 3: return 3
-    case 4: return 4
-    case 5: return 5
-    default: return 0
-  }
-}
-
-const emptyState = (): SnowflakeAppState => {
-  return {
-    name: '',
-    title: '',
-    milestoneByTrack: {
-      'WEB_CLIENT': 0,
-      'FOUNDATIONS': 0,
-      'SERVERS': 0,
-      'PROJECT_MANAGEMENT': 0,
-      'COMMUNICATION': 0,
-      'CRAFT': 0,
-      'INITIATIVE': 0,
-      'CAREER_DEVELOPMENT': 0,
-      'ORG_DESIGN': 0,
-      'WELLBEING': 0,
-      'ACCOMPLISHMENT': 0,
-      'MENTORSHIP': 0,
-      'EVANGELISM': 0,
-      'RECRUITING': 0,
-      'COMMUNITY': 0
-    },
-    focusedTrackId: 'SERVERS'
-  }
-}
-
-const defaultState = (): SnowflakeAppState => {
-  return {
-    name: '',
-    title: 'Junior Software Engineer',
-    milestoneByTrack: {
-      'WEB_CLIENT': 0,
-      'FOUNDATIONS': 0,
-      'SERVERS': 0,
-      'PROJECT_MANAGEMENT': 0,
-      'COMMUNICATION': 0,
-      'CRAFT': 0,
-      'INITIATIVE': 0,
-      'CAREER_DEVELOPMENT': 0,
-      'ORG_DESIGN': 0,
-      'WELLBEING': 0,
-      'ACCOMPLISHMENT': 0,
-      'MENTORSHIP': 0,
-      'EVANGELISM': 0,
-      'RECRUITING': 0,
-      'COMMUNITY': 0
-    },
-    focusedTrackId: 'SERVERS'
-  }
-}
-
-const stateToHash = (state: SnowflakeAppState) => {
-  if (!state || !state.milestoneByTrack) return null
-  const values = trackIds.map(trackId => state.milestoneByTrack[trackId]).concat(encodeURI(state.name), encodeURI(state.title))
-  return values.join(',')
 }
 
 type Props = {}
