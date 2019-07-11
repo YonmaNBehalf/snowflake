@@ -42,13 +42,11 @@ export type MilestoneMap = {
 export const milestones = [0, 1, 2, 3, 4, 5]
 
 export const titles = [
-  {label: 'Junior Software Engineer', minPoints: 0, maxPoints: 24},
-  {label: 'Software Engineer', minPoints: 25, maxPoints: 53},
+  {label: 'Software Engineer', minPoints: 0, maxPoints: 24},
+  {label: 'Mid-Level Software Engineer', minPoints: 25, maxPoints: 53},
   {label: 'Senior Software Engineer', minPoints: 54, maxPoints: 87},
-  {label: 'Tech Leader', minPoints: 88, maxPoints: 115},
-  {label: 'Engineering Manager', minPoints: 88, maxPoints: 115},
-  {label: 'Software Architect', minPoints: 116},
-  {label: 'Head of Engineering', minPoints: 116}
+  {label: 'Tech Leader', minPoints: 88},
+  {label: 'Engineering Manager', minPoints: 88}
 ]
 
 export const pointsToLevels = {
@@ -161,12 +159,10 @@ export const eligibleTitles = (milestoneMap: MilestoneMap): string[] => {
     if (categoryPoints[0].points <= 23)
     {
       titleList = titleList.filter(e => e !== "Tech Leader");
-      titleList = titleList.filter(e => e !== "Software Architect");
     }
     if (categoryPoints[1].points+categoryPoints[2].points+categoryPoints[3].points <= 65)
     {
       titleList = titleList.filter(e => e !== "Engineering Manager");
-      titleList = titleList.filter(e => e !== "Head of Engineering");
     }
     return titleList;
 }
