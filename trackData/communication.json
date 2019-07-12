@@ -11,8 +11,8 @@
       "Asks for help at the appropriate juncture"
     ],
     "examples": [
-      "Updated The Watch before running a backfill",
-      "Updated project status changes in Asana promptly",
+      "Updated project status changes in Phabricator promptly",
+      "Created cross-team Mattermost channel for a feature",
       "Gave thoughtful check-in and check-out comments"
     ]
   }, {
@@ -25,8 +25,8 @@
     ],
     "examples": [
       "Received and integrated critical feedback positively",
-      "Created cross-team Slack channel for payments work",
-      "Spoke to domain experts before writing spec"
+      "Spoke to domain experts before writing spec",
+      "Enriched a a team, by creating a Guild and communicate the learnings to others"
     ]
   }, {
     "points": 6,
@@ -38,7 +38,7 @@
     ],
     "examples": [
       "Directed team response effectively during outages",
-      "Gave a substantial Eng All Hands presentation on React",
+      "Gave a substantial All Hands / Demo Time presentation on a topic",
       "Gave notice of upcoming related work in Eng Briefing"
     ]
   }, {
@@ -52,7 +52,7 @@
     "examples": [
       "Lead off-site workshop on interviewing",
       "Wrote WMDE's growth framework and rationale",
-      "Aligned the entire organization around claps"
+      "Aligned the entire organization around a difficult goal or steps needed to be taken"
     ]
   }, {
     "points": 20,
@@ -60,12 +60,13 @@
     "signals": [
       "Defines processes for clear communication for the entire team",
       "Shares the right amount of information with the right people, at the right time",
-      "Develops and delivers plans to execs, the board, and outside investors"
+      "Develops and delivers plans to managers, the board, and outside partners"
     ],
     "examples": [
       "Organized half year check-in company offsite",
       "Created the communication plan for a large organizational change",
-      "Presented to the board about key company metrics and projects"
+      "Presented to the board about key company metrics and projects",
+      "Organized a recurring communication workshop to help people grow"
     ]
   }]
 }
