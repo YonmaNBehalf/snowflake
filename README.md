@@ -30,11 +30,7 @@ Install dependencies:
 This will put a static version of the site in `out/`.
 
 ### Deploying
-from the out library run: ```we deploy -p wmdetest```
-
-### Deploying API (for saved useres)
-
-from the data library run: ```we deploy -p wmdetest```
+We use Github IO, Everything going to 'master' branch will be deployed
 
 ### Tests
 
