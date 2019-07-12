@@ -1,7 +1,7 @@
 
 {
     "displayName": "Frontend",
-    "category": "A",
+    "category": "Building",
     "description": "Develops expertise in web client technologies, such as HTML, CSS, and JavaScript",
     "milestones": [{
         "points": 1.5,
@@ -61,7 +61,10 @@
         ],
         "examples": [
             "Implemented a way to steer away from our Jquery/OOUI and enable us to work with a more modern framework",
-            "Built reusable components that are used all over the ogranisation"
+            "Understands the challenges of server-side rendering for modern frameworks like Vue or React, and is able develop sustainable solutions for them",
+            "Architected a new frontend using a new off-the-shelf framework",
+             "Built reusable components that are used all over the organization",
+             "Incorporated the usage of Vuex, Nuxt, Storybook and other tools into the development process"
         ]
         },
         {
@@ -74,8 +77,7 @@
         ],
         "examples": [
             "Defined and drove migration strategy to a new framework",
-            "Architected the new SSR with Vue.js on the wikidata team",
-            "Understands all new frontend frameworks and chose the right one for the right task"
+             "Understands the differences between frontend frameworks and their ecosystems and choses the right one for the right task"
         ]
         }]
     }
