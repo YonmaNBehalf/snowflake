@@ -60,7 +60,9 @@
       "signals": [
         "Sets the tone, policy and goals around building a diverse, high-quality team",
         "Identifies and brings in promising acquisitions",
-        "Tracks industry activity, identifying opportunities for critical roles"
+        "Tracks industry activity, identifying opportunities for critical roles",
+        "Researches and suggests new tools for building better front end solutions by reducing the complexity and amount of code being written",
+        "Has a good understanding of javascript bundlers and how to use them"
       ],
       "examples": [
         "Talked with a senior candidate over many months to fill a critical role",
