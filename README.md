@@ -30,7 +30,7 @@ Install dependencies:
 This will put a static version of the site in `out/`.
 
 ### Deploying
-We use Github IO, Everything going to 'Master' branch will be deployed
+We use Github IO, Everything going to 'master' branch will be deployed
 
 ### Tests
 
