@@ -61,7 +61,7 @@
         ],
         "examples": [
             "Implemented a way to steer away from our Jquery/OOUI and enable us to work with a more modern framework",
-            "Architected the new SSR with Vue.js on the wikidata team",
+            "Understands the challenges of server-side rendering for modern frameworks like Vue or React, and is able develop sustainable solutions for them",
             "Architected a new frontend using a new off-the-shelf framework",
              "Built reusable components that are used all over the organization",
              "Incorporated the usage of Vuex, Nuxt, Storybook and other tools into the development process"
