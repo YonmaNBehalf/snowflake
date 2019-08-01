@@ -13,7 +13,7 @@
       "examples": [
         "Blogs about problems we encountered",
         "Blogs about how to use our products",
-        "Reported an issue in Github"
+        "Reported an issue in Github/Phabricator"
       ]
     }, {
       "points": 3,
