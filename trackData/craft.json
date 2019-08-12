@@ -60,7 +60,7 @@
         "Secures time and resources from execs to support great quality"
       ],
       "examples": [
-        "Identifies and eliminates single points of failure throughout the organization",
+        "Identifies and eliminates single points of failure in and across code-bases",
         "Reduced amount of firefighting by analyzing and leading a fix on said component"
       ]
     }]
