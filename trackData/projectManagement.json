@@ -12,8 +12,7 @@
       ],
       "examples": [
         "Wrote the technical spec for featured post images",
-        "Delivered stream item support for email digests",
-        "Delivered payment history dashboard"
+        "Delivered well understood brief for the email digests"
       ]
     }, {
       "points": 3,
@@ -24,9 +23,8 @@
         "Defines and hits interim milestones"
       ],
       "examples": [
-        "Delivered promo editor",
-        "Delivered audio uploading for web client",
-        "Executed the recommends to claps backfill"
+        "Delivered small projects that were asked or assigned to",
+        "Were able to work alone on a topic and present satisfying results"
       ]
     }, {
       "points": 6,
@@ -51,20 +49,20 @@
       ],
       "examples": [
         "Oversaw technical delivery of Hightower",
-        "Managed infrastructure migration to VPC",
-        "Involved marketing, legal, and appropriate functions at project start"
+        "Managed data migration in production",
+        "Involved all appropriate functions at project start"
       ]
     }, {
       "points": 20,
-      "summary": "Manages major company pushes delivered by multiple teams",
+      "summary": "Manages major org pushes delivered by multiple teams",
       "signals": [
         "Considers external constraints and business objectives when planning",
         "Leads teams of teams, and coordinates effective cross-functional collaboration",
-        "Owns a key company metric"
+        "Pushes for and sets up a key metric for the team"
       ],
       "examples": [
-        "Managed technical migration to SOA",
-        "Lead technical delivery of 10/7",
+        "Managed technical migration",
+        "Lead technical delivery",
         "Delivered multi-month engineering project on time"
       ]
     }]
