@@ -35,7 +35,8 @@ const teamworkTrack = {
 				"Able to describe in detail bordering assignments that will need integration to own code",
 				"Shares knowledge and expertise proactively with peers and other teams",
 				"Leverages feedback and comments to improve deliveries",
-				"Empathises with peers' failures and encourages transparency"
+				"Empathises with peers' failures and encourages transparency",
+				"Aware of others' initiatives and goals"
 			],
 			"examples": [
 				"Stories can be used by peers as a clear reference to collaboration",
@@ -53,7 +54,8 @@ const teamworkTrack = {
 				"Forges strong professional and personal relationships with peers and supervisors",
 				"Knows and understands implementation intimate details of other team members' work",
 				"Shares knowledge and expertise proactively and initiates a continuous dialog with peers and other teams",
-				"Uses feedback to promote a personal and team improvement cycle"
+				"Uses feedback to promote a personal and team improvement cycle",
+				"Actively promotes others' initiatives and creative solutions"
 			],
 			"examples": [
 				"Personal hour invested into tools that will improve the team's day-to-day",
@@ -84,7 +86,6 @@ const mentoringTrack = {
 				"Does not provide peers and superiors with feedback",
 				"Code reviews given rarely include any feedback of value",
 				"Disregards or belittles others' efforts, pains and value",
-				"Writes complex jargon which is unclear to anyone but themselves at the moment of writing"
 			],
 		}, {
 			"summary": "In learning you will teach, and in teaching you will learn",
@@ -95,7 +96,6 @@ const mentoringTrack = {
 				"Feedback and reviews to peers and superiors is provided upon request",
 				"Code reviews show some basic tenants",
 				"Allows for others' weaknesses",
-				"Writes documentation which will be understandable by peers that know and understand the current context"
 			],
 			"examples": [
 				"Granted basic feedback to a peer that asked specific questions",
@@ -112,7 +112,6 @@ const mentoringTrack = {
 				"Provides feeback to peers and superiors willingly",
 				"Code reviews show some advanced tenants",
 				"Creates psychological safety for open personal conversations and for others to discuss difficult topics",
-				"Documents use a clear and concise form that any peer with some domain understanding can follow"
 			],
 			"examples": [
 				"Can conduct a training session for his own team",
@@ -134,7 +133,6 @@ const mentoringTrack = {
 				"Actively seeks to provide feeback to peers and superiors",
 				"Code reviews aspire to provide long-term value to the team",
 				"Promotes trust relationships for colleagues and peers to feel free to be creative in",
-				"Documents are written in an accessible way that even someone with no prior knowledge can gain some value"
 
 			],
 			"examples": [
@@ -157,7 +155,6 @@ const mentoringTrack = {
 				"Eagerly teaches peers and superiors and provides insights into behavior and actions",
 				"Code reviews aspire to provide long-term value to the department",
 				"Fosters a serene, accepting, embracing environment for personal and team growth which builds on trust and acceptance",
-				"Able to summarise an entire system into a haiku that makes the reader know Kung-fu"
 			],
 			"examples": [
 				"Taught a new VP R&D about the technological platform, implementation practices, frameworks and practices of the department in great detail",

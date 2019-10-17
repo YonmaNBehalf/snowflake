@@ -7,7 +7,8 @@ const motivationTrack = {
       "signals": [
 	      "Uninvolved or uninterested in the day to day work",
 	      "Considers certain tasks beneath him",
-	      "Cynical attitude towards others' efforts and company intent"
+	      "Cynical attitude towards others' efforts and company intent",
+	      "Silent in meetings"
       ]
   }, {
       "summary": "",
@@ -15,7 +16,9 @@ const motivationTrack = {
 	      "Shows up to dailies, updates peers",
 	      "Aware of general department priorities and plans",
 	      "Reports progress honestly",
-	      "Accepts criticism gracefully"
+	      "Keeps with team processes",
+	      "Accepts criticism gracefully",
+	      "Occasionally participates in meetings"
       ],
       "examples": [
 	      "Reported about a setback immediately and without omission",
@@ -28,8 +31,10 @@ const motivationTrack = {
 	      "Expresses company culture in own conduct, choices and activities",
 	      "Generally understands the company goals and how those affect the department",
 	      "Accepts critcism and leverages it to improve an existing behavior",
+	      "Actively supports & participates in team processes",
 	      "Handles difficulties by addressing them directly or by leveraging others' expertise",
-	      "Honestly reports on problems and actively attempts to learn from incidents"
+	      "Honestly reports on problems and actively attempts to learn from incidents",
+	      "Active participant in most meetings. Offers opinions and options"
       ],
       "examples": [
 	      "Colleagues know and understand their current effort's progress",
@@ -48,7 +53,8 @@ const motivationTrack = {
 	      "An optimistic & rational approach to process and team effort",
 		  "Excitement in the face of adversity",
 		  "Honestly attempts to understand and align personal and company goals",
-		  "Unafraid of admitting failure and actively stepping up to correct the results and collateral damage"
+		  "Unafraid of admitting failure and actively stepping up to correct the results and collateral damage",
+	      "Eager meeting participant that shares thoughts, opinions and ideas"
       ],
       "examples": [
 	      "Lead a habit making change in the department",
@@ -82,7 +88,8 @@ const thoroughnessTrack = {
 			"Changes and fixes require followup",
 			"Code reviews usually focus on trivial details or rarely raises any concerns",
 			"Unfocused efforts provide inconsistent and ineffective outcomes",
-			"Unforeseen collateral regressions are common after changes"
+			"Unforeseen collateral regressions are common after changes",
+			"Writes complex jargon which is unclear to anyone but themselves at the moment of writing"
 		],
 	}, {
 		"summary": "",
@@ -95,7 +102,8 @@ const thoroughnessTrack = {
 			"Able to find the obscure root cause of an issue through sheer luck",
 			"Pursues objectives to completion, even if not in a timely manner",
 			"Unforeseen collateral regressions are rare after changes",
-			"Code reviews raise legitimate basic concerns"
+			"Code reviews raise legitimate basic concerns",
+			"Writes documentation which will be understandable by peers that know and understand the current context"
 		],
 		"examples": [
 			"A one-sentence epic requirements description were elaborated upon",
@@ -113,10 +121,10 @@ const thoroughnessTrack = {
 			"Bugs are reproduced and diagnosed prior to implementation",
 			"Changes and fixes rarely requires followup",
 			"Able to find the obscure root cause of an issue through intuition and guesswork",
-			"Code reviews are in depth and concerns are raised for standards and cleanliness.",
+			"Code reviews are in depth and concerns are raised for standards, edge cases and cleanliness.",
 			"Focuses on selected priorities with minimal slack time",
 			"Collateral effects for changes are rare and otherwise usually mitigated",
-			"Code reviews are detailed and concerns are raised for standards and edge cases."
+			"Documents use a clear and concise form that any peer with some domain understanding can follow"
 
 		],
 		"examples": [
@@ -140,7 +148,9 @@ const thoroughnessTrack = {
 			"Able to find the obscure root cause of an issue through careful analysis of data or code",
 			"Focused and driven efforts and highly effective at producing accurate results",
 			"Collateral effects are extremely rare and never surprising",
-			"Code review comments demonstrate deep insight into the code base, its developers and their state of mind at the time"
+			"Code review comments demonstrate deep insight into the code base, its developers and their state of mind at the time",
+			"Documents are written in an accessible way that even someone with no prior knowledge can gain some value"
+
 		],
 		"examples": [
 			"Trained colleagues on the domain subject matter",
@@ -152,7 +162,7 @@ const thoroughnessTrack = {
 	}, {
 		"summary": "",
 		"signals": [
-			"",
+			"Able to summarise an entire system into a haiku that makes the reader know Kung-fu",
 			"",
 			"",
 		],

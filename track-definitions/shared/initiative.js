@@ -43,7 +43,7 @@ const initiativeTrack = {
   }, {
       "summary": "",
       "signals": [
-	      "Think up a creative, nearly complete solution to a problem we could not completely solve",
+	      "Think up a creative, nearly complete solution to a challenging problem",
 	      "Actively pursue assistance with peers in urgent objectives without derailing their own work",
 	      "Able to motivate others to resolve issues to promote broad objectives",
 	      "Propose and implement a full team process",

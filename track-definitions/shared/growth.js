@@ -22,6 +22,7 @@ const researchTrack = {
 			"Can correctly estimate a single aspect of personal work",
 			"Planned execution sometimes generates unexpected technical debt that can be handled later",
 			"Implementation plan addresses some hidden assumptions in advance",
+			"Isolates risk into general or unclear definitions that still have blocking dependencies. The risk is vaguely defined"
 		],
 		"examples": [
 			"Wrote a basic implementation plan for an epic",
@@ -40,6 +41,8 @@ const researchTrack = {
 			"Can correctly estimate all aspects of an assignment of personal work or some aspects for others",
 			"Implementation exposes hidden assumptions and attempts to work them out or challenge them",
 			"Planned execution generates unexpected technical debt that can be generally be postponed",
+			"Isolates risk into clear parts of the effort. Some of these parts can be provided for. The risk is defined up to a point"
+
 		],
 		"examples": [
 			"Researched and mastered a new business domain's workflows in a few days",
@@ -58,6 +61,8 @@ const researchTrack = {
 			"Can correctly estimate all aspects of an assignment or to guide others in this process",
 			"Planned execution rarely generates unexpected technical debt",
 			"Hidden assumptions are challenged or mitigated in such a way as to pave the road for simplified implementation",
+			"Risk is isolated into clear work packages that can be worked around. The risk is defined comprehensively with additional mitigations"
+
 		],
 		"examples": [
 			"Implementation plan is updated and kept correct for future reference",
@@ -70,7 +75,9 @@ const researchTrack = {
 			"Research materials are detailed, correct, insightful and are useful as white papers for customers",
 			"Implementation plan is simple, accounts for everything and includes contingencies for the eventual imperfections of the human condition",
 			"Estimates are perfect to the minute and account for bathroom breaks and long lunches in cookie",
-			"There are no hidden assumptions down the electric charge of an electron"
+			"There are no hidden assumptions down the electric charge of an electron",
+			"Risk? What is Risk?"
+
 		],
 	}],
 };
