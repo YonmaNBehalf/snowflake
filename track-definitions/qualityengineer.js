@@ -79,5 +79,4 @@ const ownershipTrack = {
 
 export default {
   ...commonTracks,
-  "5": ownershipTrack,
 }
