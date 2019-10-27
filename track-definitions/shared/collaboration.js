@@ -19,6 +19,7 @@ const teamworkTrack = {
 				"Creates basic professional relationships with others around him",
 				"Can generally explain collaborators' work and assignments",
 				"Shares knowledge and expertise with others through guild activities",
+				"Generally emphasises with others around them",
 				"Uses feedback & review comments to produce correct code",
 			],
 			"examples": [
@@ -35,7 +36,7 @@ const teamworkTrack = {
 				"Able to describe in detail bordering assignments that will need integration to own code",
 				"Shares knowledge and expertise proactively with peers and other teams",
 				"Leverages feedback and comments to improve deliveries",
-				"Empathises with peers' failures and encourages transparency",
+				"Empathises with peers' difficulties and encourages transparency",
 				"Aware of others' initiatives and goals"
 			],
 			"examples": [
@@ -55,6 +56,7 @@ const teamworkTrack = {
 				"Knows and understands implementation intimate details of other team members' work",
 				"Shares knowledge and expertise proactively and initiates a continuous dialog with peers and other teams",
 				"Uses feedback to promote a personal and team improvement cycle",
+				"Empathises with peers' difficulties and has insights into their behavior and needs",
 				"Actively promotes others' initiatives and creative solutions"
 			],
 			"examples": [
@@ -123,7 +125,7 @@ const mentoringTrack = {
 
 			],
 		}, {
-			"summary": "A great teamplayer is able to act as a force multiplier for those around him, promoting the team's efforts so that the whole is greater than the sum of its parts",
+			"summary": "",
 			"signals": [
 				"Able to instruct coworkers in technological & theoretical topics on the fly to minute detail",
 				"Able to create a basic lesson plan for teaching others",
