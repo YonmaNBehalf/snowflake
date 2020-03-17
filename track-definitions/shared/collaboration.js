@@ -17,7 +17,6 @@ const teamworkTrack = {
 			"summary": "Teamwork starts with communication",
 			"signals": [
 				"Able to generally collaborate on an assignment by splitting tasks and later reintegrating",
-				"Creates basic professional relationships with others around him",
 				"Can generally explain collaborators' work and assignments",
 				"Shares knowledge and expertise with others through guild activities",
 				"Generally emphasises with others around them",
@@ -34,7 +33,6 @@ const teamworkTrack = {
 			"signals": [
 				"Able to actively collaborate on an assignment by contract or other synchronized mechanism",
 				"Prioritizes team's concerns and goals over more interesting (though relevant) objectives",
-				"Builds meaningful professional relationships with peers and supervisors",
 				"Able to describe in detail bordering assignments that will need integration to own code",
 				"Shares knowledge and expertise proactively with peers and other teams",
 				"Leverages feedback and comments to improve deliveries",
@@ -55,7 +53,6 @@ const teamworkTrack = {
 			"signals": [
 				"Able to actively collaborate on an assignment by working with others and galvanizing the team to greater productivity",
 				"Able to extract value and promote the team's greater goals from assignments and personal efforts",
-				"Forges strong professional and personal relationships with peers and supervisors",
 				"Knows and understands implementation intimate details of other team members' work",
 				"Shares knowledge and expertise proactively and initiates a continuous dialog with peers and other teams",
 				"Uses feedback to promote a personal and team improvement cycle",
