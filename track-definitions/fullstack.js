@@ -17,7 +17,8 @@ const ownershipTrack = {
     "signals": [
       "Assumes responsibility for own changesets",
       "Rarely joins in code reviews",
-      "Does not establish or challenge coding conventions"
+      "Does not establish or challenge coding conventions",
+      "Requires external guidance to sort through own priorities"
     ]
   }, {
     "summary": "",
@@ -26,7 +27,8 @@ const ownershipTrack = {
       "Assists in code reviews for own domains",
       "Establishes coding conventions for own domain but rarely enforces them",
       "Responsible for a story's research, implementation and testing",
-      "Knows enough about an epic's business considerations to make basic choices"
+      "Knows enough about an epic's considerations to make soft choices",
+      "Tells apart urgent assignments from day-to-day priorities and acts on them first",
     ],
     "examples": [
       "Took up responsibility for a small system domain or 3rd party system",
@@ -42,7 +44,8 @@ const ownershipTrack = {
       "Enforces coding conventions in a reasonable and flexible manner",
       "Responsible for a small Epic's research, planning, implementation, testing and release",
       "Participates in others' assignments planning",
-      "Knows about an epic's context to lead decisions"
+      "Knows about an epic's context to lead decision making process",
+      "Uses a priorities ladder of assignments to make good choices about work plans",
     ],
     "examples": [
       "Regularly assisted other developers in development work in owned domain",
@@ -58,7 +61,8 @@ const ownershipTrack = {
       "Enforces coding conventions in a reasonable and flexible manner and constantly refines them",
       "Responsible for a large Epic's research, planning, implementation, testing and release",
       "Participates in others' assignments research and planning",
-      "Makes strategic decisions based on an intimate awareness of an epic's considerations and business case"
+      "Makes strategic decisions based on an intimate awareness of an epic's considerations and business case",
+      "Uses priorities to effectively allocate time and attention to assignments",
     ],
     "examples": [
       "Halted sub-par code from being pushed into the domain",
@@ -90,7 +94,7 @@ const codingTrack = {
       "Thrashing commits with no evolution path",
       "Solutions generally are not built to be extended",
       "Inconsistent with coding conventions",
-      "Unable to coordinate changes to avoid conflicts and merge issues"
+      "Unable to coordinate changes to avoid conflicts and merge issues",
     ]
   }, {
     "summary": "",
