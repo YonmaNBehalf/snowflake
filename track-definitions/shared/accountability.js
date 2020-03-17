@@ -89,7 +89,8 @@ const thoroughnessTrack = {
 			"Code reviews usually focus on trivial details or rarely raises any concerns",
 			"Unfocused efforts provide inconsistent and ineffective outcomes",
 			"Unforeseen collateral regressions are common after changes",
-			"Writes complex jargon which is unclear to anyone but themselves at the moment of writing"
+			"Writes complex jargon which is unclear to anyone but themselves at the moment of writing",
+			"Effort results are not expressed in any kind of effective communication"
 		],
 	}, {
 		"summary": "",
@@ -103,7 +104,9 @@ const thoroughnessTrack = {
 			"Pursues objectives to completion, even if not in a timely manner",
 			"Unforeseen collateral regressions are rare after changes",
 			"Code reviews raise legitimate basic concerns",
-			"Writes documentation which will be understandable by peers that know and understand the current context"
+			"Writes documentation which will be understandable by peers that know and understand the current context",
+			"Generally describes current status of efforts when completed",
+			"Effort status is communicated in a single medium"
 		],
 		"examples": [
 			"A one-sentence epic requirements description were elaborated upon",
@@ -124,8 +127,9 @@ const thoroughnessTrack = {
 			"Code reviews are in depth and concerns are raised for standards, edge cases and cleanliness.",
 			"Focuses on selected priorities with minimal slack time",
 			"Collateral effects for changes are rare and otherwise usually mitigated",
-			"Documents use a clear and concise form that any peer with some domain understanding can follow"
-
+			"Documents use a clear and concise form that any peer with some domain understanding can follow",
+			"Provides updates in a predefined cadence about efforts",
+			"Effort updates use one appropriate medium such as verbal, messages, issue tickets or others"
 		],
 		"examples": [
 			"Created a research document and schematics for the implementation aspects of an effort",
@@ -149,8 +153,9 @@ const thoroughnessTrack = {
 			"Focused and driven efforts and highly effective at producing accurate results",
 			"Collateral effects are extremely rare and never surprising",
 			"Code review comments demonstrate deep insight into the code base, its developers and their state of mind at the time",
-			"Documents are written in an accessible way that even someone with no prior knowledge can gain some value"
-
+			"Documents are written in an accessible way that even someone with no prior knowledge can gain some value",
+			"Updates for efforts are delivered in an adaptive cadence that reflects priority and value to the team",
+			"Effort updates use multiple mediums such as verbal, messages, issue tickets to boost general awareness"
 		],
 		"examples": [
 			"Trained colleagues on the domain subject matter",
