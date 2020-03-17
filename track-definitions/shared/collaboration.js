@@ -11,6 +11,7 @@ const teamworkTrack = {
 				"Unaware of other people's assignments and efforts",
 				"Does not share knowledge and expertise",
 				"Ignores feedback from peers",
+				"Does not communicate about commitments that peers depend on"
 			],
 		}, {
 			"summary": "Teamwork starts with communication",
@@ -21,6 +22,7 @@ const teamworkTrack = {
 				"Shares knowledge and expertise with others through guild activities",
 				"Generally emphasises with others around them",
 				"Uses feedback & review comments to produce correct code",
+				"Generally indicates if there is a problem in a commitment to someone else"
 			],
 			"examples": [
 				"An owned Epic has stories for consumption",
@@ -37,7 +39,8 @@ const teamworkTrack = {
 				"Shares knowledge and expertise proactively with peers and other teams",
 				"Leverages feedback and comments to improve deliveries",
 				"Empathises with peers' difficulties and encourages transparency",
-				"Aware of others' initiatives and goals"
+				"Aware of others' initiatives and goals",
+				"Effectively communicates ongoing status of commitments, in particular when these are dependencies for others",
 			],
 			"examples": [
 				"Stories can be used by peers as a clear reference to collaboration",
@@ -57,7 +60,9 @@ const teamworkTrack = {
 				"Shares knowledge and expertise proactively and initiates a continuous dialog with peers and other teams",
 				"Uses feedback to promote a personal and team improvement cycle",
 				"Empathises with peers' difficulties and has insights into their behavior and needs",
-				"Actively promotes others' initiatives and creative solutions"
+				"Actively promotes others' initiatives and creative solutions",
+				"Effectively communicates ongoing status of commitments and projects how current efforts will impact future deliveries",
+				"Provides alternatives on commitments that cannot be kept"
 			],
 			"examples": [
 				"Personal hour invested into tools that will improve the team's day-to-day",
@@ -69,7 +74,8 @@ const teamworkTrack = {
 			"summary": "",
 			"signals": [
 				"Creates an open ended network of friendships and cooperation in the department",
-				"Aspires in action to become the result of peer feedback's ideal team member"
+				"Aspires in action to become the result of peer feedback's ideal team member",
+
 			]
 		}
 	]
