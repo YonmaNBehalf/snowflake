@@ -123,7 +123,7 @@ const mentoringTrack = {
 				"Presented a topic they know well in a knowledge sharing or meetup",
 				"Participated in Onboarding a new employee",
 				"Granted a few feedback points to direct manager in a 1on1 meeting",
-				"Code reviews include: story-logic matching, functional issues, clarity, conventions, insight",
+				"Code reviews include: story-logic matching, functional issues, clarity, conventions, insight, structure issues, implementation reasoning, questioning assumptions",
 				"Sincerely contributed insight in groking about mistakes and process improvement"
 
 			],
@@ -145,7 +145,7 @@ const mentoringTrack = {
 				"Planned and executed a training session for the department",
 				"Lead the onboarding effort of a new employee so that they got to productivity earlier than anticipated",
 				"Gives feedback and coaches peers about conduct, opinions about choices and passes constructive criticism",
-				"Code reviews include: Clean code, eye for details, maintainability, code & model design, names and domain considerations"
+				"Code reviews include: Clean code, eye for details, maintainability, code & model design, names and domain considerations, story-logic matching, functional issues, clarity, conventions, insight, structure issues, implementation reasoning, questioning assumptions"
 
 			],
 		}, {
@@ -165,7 +165,7 @@ const mentoringTrack = {
 				"Taught a new VP R&D about the technological platform, implementation practices, frameworks and practices of the department in great detail",
 				"Created a training course for colleagues about a topic that will impact company productivity",
 				"Their coaching peers and supervisors impact the entire team and benefit the entire department",
-				"Code reviews become the basis for major initiatives, guild discussion and case studies"
+				"Code reviews become the basis for major initiatives, guild discussion and case studies, Clean code, eye for details, maintainability, code & model design, names and domain considerations, story-logic matching, functional issues, clarity, conventions, insight, structure issues, implementation reasoning, questioning assumptions"
 			],
 		}
 	]
