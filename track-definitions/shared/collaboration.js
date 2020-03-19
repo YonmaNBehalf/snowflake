@@ -31,6 +31,7 @@ const teamworkTrack = {
 		}, {
 			"summary": "A collaborator is able to become an integral part of the organisation they are part of",
 			"signals": [
+				"Creates a network of cooperation in the department",
 				"Able to actively collaborate on an assignment by contract or other synchronized mechanism",
 				"Prioritizes team's concerns and goals over more interesting (though relevant) objectives",
 				"Able to describe in detail bordering assignments that will need integration to own code",
@@ -51,15 +52,18 @@ const teamworkTrack = {
 		}, {
 			"summary": "A great teamplayer is able to act as a force multiplier for those around him, promoting the team's efforts so that the whole is greater than the sum of its parts",
 			"signals": [
+				"Creates a network of cooperation in the department and with other peers in other departments",
+				"Boosts overall team effectiveness by adapting behaviour and attitude to different team members' preferences",
 				"Able to actively collaborate on an assignment by working with others and galvanizing the team to greater productivity",
 				"Able to extract value and promote the team's greater goals from assignments and personal efforts",
 				"Knows and understands implementation intimate details of other team members' work",
 				"Shares knowledge and expertise proactively and initiates a continuous dialog with peers and other teams",
 				"Uses feedback to promote a personal and team improvement cycle",
 				"Empathises with peers' difficulties and has insights into their behavior and needs",
-				"Actively promotes others' initiatives and creative solutions",
-				"Effectively communicates ongoing status of commitments and projects how current efforts will impact future deliveries",
-				"Provides alternatives on commitments that cannot be kept"
+				"Manages sideways: Actively promotes others' initiatives and creative solutions",
+				"Effectively communicates ongoing status of commitments and projects how current efforts will impact current deliveries",
+				"Provides alternatives on commitments that cannot be kept",
+				"Manages up; provides information, insight and analysis to make decision making easier"
 			],
 			"examples": [
 				"Personal hour invested into tools that will improve the team's day-to-day",
@@ -70,9 +74,18 @@ const teamworkTrack = {
 		}, {
 			"summary": "",
 			"signals": [
-				"Creates an open ended network of friendships and cooperation in the department",
-				"Aspires in action to become the result of peer feedback's ideal team member",
-
+				"Creates an open ended network of cooperation in the department and the company",
+				"Boosts overall team effectiveness by adapting behaviour and attitude to different team members' preferences",
+				"Reduces friction in collaboration with and for other team members through conduct and grace",
+				"Extracts value and promotes the team's greater goals in all activities",
+				"Knows and understands implementation intimate details of other team members' work",
+				"Shares knowledge and expertise proactively and initiates a continuous dialog with peers and other teams",
+				"Gives feedback to promote a personal and team improvement cycle",
+				"Empathises with peers' difficulties and looks for a full context in order to make informed decisions",
+				"Manages sideways: Actively promotes others' initiatives and creative solutions",
+				"Effectively communicates ongoing status of commitments and projects how current efforts will impact future deliveries",
+				"Provides alternatives on commitments that cannot be kept",
+				"Manages up; provides information, insight and analysis to make decision making easier"
 			]
 		}
 	]
