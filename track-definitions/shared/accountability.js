@@ -120,6 +120,7 @@ const thoroughnessTrack = {
 		"signals": [
 			"Collects missing domain information to gain a complete picture",
 			"Plans implementation and testing prior to actual development",
+			"Implementation plans are kept up to date during the project",
 			"Technical debt is usually accrued due to surprises and after reasoning about the current and future costs of creating it",
 			"Bugs are reproduced and diagnosed prior to implementation",
 			"Changes and fixes rarely requires followup",
@@ -148,6 +149,7 @@ const thoroughnessTrack = {
 			"Considers all non-functional aspects of an assignment such as security, performance, ux and accessibility",
 			"Extracts value even from non-development activities such as research, test writing and collaboration learning",
 			"Technical debt is accrued due to surprises and its long-term effects are reincorporated into the plan",
+			"Implementation plans are improved on to contain decision making notes and alternatives considered in the project",
 			"Changes and fixes are thoroughly tested and require no additional work",
 			"Able to find the obscure root cause of an issue through careful analysis of data or code",
 			"Focused and driven efforts and highly effective at producing accurate results",

@@ -7,61 +7,67 @@ const researchTrack = {
 	"milestones": [{
 		"summary": "",
 		"signals": [
-			"Able to research basic concepts and simple technologies in a few days",
-			"Capable of planning implementation for a story",
-			"Able to write basic documents",
-			"Chosen implementation plan is naive or completely ignores underlying assumptions"
+			"Research uses only basic concepts and general ideas",
+			"Research scope is very small and does not extend to an entire effort",
+			"Documents are short, basic, vague or lack sufficient context",
+			"Chosen implementation plan is naive or completely ignores underlying assumptions",
+			"Estimates are very rough generalizations or completely wrong"
 		],
+		"examples": [
+			"Plans implementation for a story",
+			"Research document only makes sense to the author",
+			"The research document will make sense only in the next few minutes. Future us will not make any sense of it",
+			"Plan only details a few vague code changes and fails to take into account an external dependency is missing"
+		]
 	}, {
 		"summary": "",
 		"signals": [
-			"Can study a new technology or concept in a week with clearly predefined criterias",
-			"Able to create an implementation plan for a simple 3-story epic with a few integration points",
-			"Can create a general plan that is understandable at the moment of presentation",
-			"Can write a quickstart document for others to use",
-			"Can correctly estimate a single aspect of personal work",
+			"A new focused technology or narrow concept is studied and applied in a week",
+			"Research products are detailed enough to provide a plan for a small, simple feature",
+			"Implementation plan is understandable when provided in context",
+			"T-shirt estimates are generally correct",
 			"Planned execution sometimes generates unexpected technical debt that can be handled later",
 			"Implementation plan addresses some hidden assumptions in advance",
 			"Isolates risk into general or unclear definitions that still have blocking dependencies. The risk is vaguely defined"
 		],
 		"examples": [
-			"Wrote a basic implementation plan for an epic",
+			"Wrote a basic implementation plan for a small single layer epic",
 			"Participated regularly in code reviews for peers",
 			"Studied a technological topic for use or training",
+			"Correctly estimate that a simple task is actually short to implement",
+			"A seemingly short implementation actually requires we write a new service and triples the original estimate. Luckily we can postpone most of the work to cleanup",
+			"Research correctly identified beforehand that a complicated persistence solution will be needed to meet the full requirement"
 		],
 	}, {
 		"summary": "",
 		"signals": [
-			"Can study a new technology or concept in a few days with a generally defined objective",
-			"Able to study and master a new business domain in a few weeks",
-			"Can plan own research goals and criteria, given a clear technical objective",
-			"Able to create an implementation plan for a complex 8-story epic with some integration points",
-			"Can create a general plan that will be relevant and updated during the project",
-			"Can write a detailed instructions document for others to use",
-			"Can correctly estimate all aspects of an assignment of personal work or some aspects for others",
+			"Implementation uses newly acquired skills or concepts",
+			"Master a new business domain in a few weeks",
+			"Research products are in-depth and detailed for the implementation of a large feature or a non-trivial change",
+			"Correctly estimates the planned work for a large feature to within one week",
 			"Implementation exposes hidden assumptions and attempts to work them out or challenge them",
 			"Planned execution generates unexpected technical debt that can be generally be postponed",
+			"Applies basic domain knowledge concepts to make reasonable research assumptions",
 			"Isolates risk into clear parts of the effort. Some of these parts can be provided for. The risk is defined up to a point"
-
 		],
 		"examples": [
-			"Researched and mastered a new business domain's workflows in a few days",
+			"Implemented a feature for the first time in a new technical domain",
+			"Prepared the Model and implementation of a new Domain Service within a new Business domain",
 			"Correctly estimated an epic's efforts",
 			"Created a detailed implementation plan for a large epic",
+			"Completed partial research goal based on domain assumptions"
 		],
 	}, {
 		"summary": "",
 		"signals": [
-			"Can study a new technology, concept and become productive within a day or two",
-			"Able to study and master a new business domain in a few days",
-			"Can plan own research goals and criteria, given a clear business objectives",
-			"Able to create an implementation plan for a set of epics with many integration points",
-			"Can create a general plan that will be relevant and updated during the project, providing clear insight into the project's planning process",
-			"Can write a detailed instructions document for others to use",
-			"Can correctly estimate all aspects of an assignment or to guide others in this process",
+			"Implementation uses new skills, technology or abstract concepts",
+			"Master a technical domain in a week",
+			"Research a project made up of several epics and its integration points",
+			"Implementation plan details are updated during the project and provide clear insight into changes and surprises",
+			"Effort was correctly estimated beforehand and provided for surprises and changes",
 			"Planned execution rarely generates unexpected technical debt",
 			"Hidden assumptions are challenged or mitigated in such a way as to pave the road for simplified implementation",
-			"Risk is isolated into clear work packages that can be worked around. The risk is defined comprehensively with additional mitigations"
+			"Risk is isolated into clear work packages that can be worked around. The risk is defined comprehensively with additional mitigation"
 
 		],
 		"examples": [

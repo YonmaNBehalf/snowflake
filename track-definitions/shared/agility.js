@@ -5,7 +5,7 @@ const independenceTrack = {
   "milestones": [{
       "summary": "",
       "signals": [
-	      "Able to follow an implementation plan",
+	      "Follows an implementation plan",
 	      "Requires guidance on basic implementation choices",
 	      "Does not handle surprises",
 	      "Does not take on any extra-curricular responsibilities",
@@ -15,8 +15,8 @@ const independenceTrack = {
   }, {
       "summary": "",
       "signals": [
-	      "Able to follow an implementation plan",
-	      "Able to resolve basic surprises and problems on the fly",
+	      "Follows an implementation plan",
+	      "Resolves basic surprises and problems on the fly",
 	      "Seeks guidance to expand on the existing plan",
 	      "Uses the team's goals as a meter for personal progress",
 	      "Given course materials needs a study group to get any value",
@@ -33,12 +33,12 @@ const independenceTrack = {
   }, {
       "summary": "",
       "signals": [
-	      "Able to follow an implementation plan and adapt it on the fly",
-	      "Able to resolve minor surprises and problems during implementation",
+	      "Follows an implementation plan and adapt it on the fly",
+	      "Resolves minor surprises and problems during implementation",
 	      "Seeks guidance to expand on the existing plan and improve its end results",
 	      "Sets personal goals to measure progress",
 	      "Invests an hour a week at a single activity or project",
-	      "Able to source study materials and study them independently",
+	      "Source study materials and study them independently",
 	      "Learns basic business domain considerations and is able to generally identify obviously important aspects of an assignment",
 	      "Stories rarely inflate and epics keep their focus during work",
 	      "Research can be adapted and modified on the fly to fit new insights and circumstances with some minimal impact"
@@ -53,12 +53,11 @@ const independenceTrack = {
   }, {
       "summary": "",
       "signals": [
-	      "Able to use a rudimentry implementation plan, complete its details and adapt it on the fly",
+	      "Use a rudimentry implementation plan, complete its details and adapt it on the fly",
 	      "Able to resolve major surprises and problems during implementation",
 	      "Seeks guidance to expand on the existing plan and optimizes its end results",
 	      "Tracks personal goals to completion",
 	      "Invests an hour a week at a single activity or project that promotes the department goals",
-	      "Able to plan and organise study components for training in various topics and then able to make value out of studying alone or lead a study group",
 	      "Learns business domain nuanced considerations and is able to identify and focus on important aspects of an assignment",
 		  "Stories shrink in size and epics are completed with a minimum of changes",
 	      "Research is comprehensive but still allows efforts to shift direction quickly without impacting delivery time"
@@ -72,7 +71,7 @@ const independenceTrack = {
   }, {
       "summary": "",
       "signals": [
-	      "Able to drive department and personal goals without disrupting others' work",
+	      "Drives department and personal goals without disrupting others' work",
 	      "Is not surprised by anything. Very Zen",
 	      "Career path is planned in detail with target dates for outrageous yet somehow sensible goals",
 	      "Product objectives are achieved with no code changes",
