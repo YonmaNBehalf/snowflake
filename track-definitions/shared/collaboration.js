@@ -164,7 +164,7 @@ const mentoringTrack = {
 		}, {
 			"summary": "There is no spoon",
 			"signals": [
-				"Able to instruct coworkers in technological & theoretical topics on the fly to minute detail",
+				"Instructs coworkers in technological & theoretical topics on the fly to minute detail",
 				"Impacts the entire company in a beneficial way through training and teaching",
 				"Able to create a detailed lesson plan for others to teach other departments",
 				"Capable of going into details on a random topic in knowledge sharing without specific preparation",

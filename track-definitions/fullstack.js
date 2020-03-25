@@ -56,12 +56,12 @@ const ownershipTrack = {
     "signals": [
       "Acts as gatekeeper for a system domain for code reviews and standards",
       "Supports and actively assists others that develop within owned domain",
-      "Explores initiatives to promote company activities through the owned domain such as new products and capabilities",
-      "Teaches others about domain activities and shares detailed knowledge about the domain",
-      "Enforces coding conventions in a reasonable and flexible manner and constantly refines them",
+      "Explores initiatives to promote company activities through the owned domain capabilities",
+      "Teaches others about domain activities ",
+      "Enforces coding conventions in a reasonable ",
       "Responsible for a large Epic's research, planning, implementation, testing and release",
       "Participates in others' assignments research and planning",
-      "Makes strategic decisions based on an intimate awareness of an epic's considerations and business case",
+      "Makes tactical decisions based on an awareness of an epic's considerations",
       "Uses priorities to effectively allocate time and attention to assignments",
     ],
     "examples": [
@@ -72,13 +72,20 @@ const ownershipTrack = {
   }, {
     "summary": "",
     "signals": [
-      "Eagerly takes responsibility of code quality, functional completeness and standards within a system domain",
+      "Acts as gatekeeper for a business domain",
+      "Trains and inspires others that develop within owned domain to take good practices to other domains",
+      "Explores initiatives to promote company activities through the owned domain such as new products and capabilities",
+      "Teaches others about domain activities and shares detailed knowledge about the domain",
+      "Enforces coding conventions in a reasonable and flexible manner and constantly refines them",
       "Responsible for a project's research, planning, implementation, testing and release",
-      "Participates in others' assignments research, planning and release"
+      "Promotes others' research and planning abilities",
+      "Makes strategic decisions based on an intimate awareness of an epic's considerations and business case",
+      "Uses priorities to effectively allocate time and attention to assignments",
     ],
     "examples": [
+      "Involved in an external change within the business domain (maybe not in the technical domain)",
       "Revamped a domain's set of conventions and standards. Refactored its code to fit the new set.",
-      "Guided others in research and is involved as a knowledge focus in research that touches on this domain",
+      "Guide others in research and is involved as a knowledge focus in research that touches on this domain",
     ],
   }],
 };
@@ -103,9 +110,9 @@ const codingTrack = {
       "Some thrashing commits, usually for a final rewrite before merging",
       "Solutions are sometimes written with extensibility in mind",
       "Generally consistent coding conventions, though usually without a deep understanding",
-      "Able to merge with foreign code conflicts so that properly covered code does not break",
+      "Merge foreign code with conflicts so that properly covered code does not break",
       "Knows basic IDE usage",
-      "Able to leverage existing personal automation",
+      "Leverages existing personal automation",
     ],
     "examples": [
       "Wrote code that adheres to standards and does not require future revisits to clean up",
@@ -118,10 +125,10 @@ const codingTrack = {
       "Writes correct, proven code that is covered by tests and logically sound",
       "Some thrashing commits, mostly used for administrative work such as squashing",
       "Solutions are generally human readable and maintainable",
-      "Able to keep local coding conventions. Different standards can be discussed and reasoned about",
-      "Able to merge and overcome foreign code conflicts in a safe way without breaking uncovered code",
+      "Keeps local coding conventions. Different standards can be discussed and reasoned about",
+      "Merges and overcomes foreign code conflicts in a safe way without breaking others' features and efforts",
       "Knows IDE usage at a high level",
-      "Able to leverage existing dev automation and also introduces new automation as needed",
+      "Leverages existing dev automation and also introduces new automation as needed",
     ],
     "examples": [
       "Written code is adequately covered by unit & integration tests",
@@ -156,7 +163,8 @@ const codingTrack = {
     ],
     "examples": [
       "Wrote their own damn IDE",
-      "Built dev automation from the ground up while providing for future requirements",
+      "Built dev automation from the ground up and packaged it some anyone can easily use it",
+
     ],
   }],
 };
@@ -168,14 +176,14 @@ const engineeringTrack = {
   "milestones": [{
     "summary": "",
     "signals": [
-      "Can independently implement simple single tier applications",
-      "Can understand basic quick start guides"
+      "Independently implements simple single tier applications",
+      "Understands basic quick start guides"
     ],
   }, {
     "summary": "",
     "signals": [
-      "Able to study an existing system and become productive in reasonable time",
-      "Can independently implement a simple application and integrate it to an external service",
+      "Study an existing system and become productive in a few days",
+      "Independently implement a simple application and integrate it to an external service",
       "Can carry a basic technical discussion or understand basic technological articles",
       "Has written a few applications in at least one business domain",
       "Aware of security or performance concerns"
@@ -188,15 +196,17 @@ const engineeringTrack = {
   }, {
     "summary": "",
     "signals": [
-      "Is able to solve a complex optimization issue",
-      "Successully add or modify a minor feature on an unfamiliar application in reasonable time",
-      "Can defend technological choices and understands sub-academic articles",
-      "Can research and introduce a new technology or sub-system",
-      "Has written numerous applications of multiple business domains",
-      "Aware of security & performance concerns in applications",
-      "Able to implement code that has a low cost of introducing future changes"
+      "Solves non-functional application issues",
+      "Reasons about existing code and legacy",
+      "Technological choices are made through realization of needs and environment",
+      "Written numerous applications of multiple business domains",
+      "Code demonstrates awareness of security & performance concerns",
+      "Implementations are future proofed"
     ],
     "examples": [
+      "Successfully add or modify a minor feature on an unfamiliar application in reasonable time",
+      "Implement code that has a low cost of introducing future changes, as those are currently understood",
+      "Research and introduce a new technology or sub-system",
       "Profiled and solved a challenging performance issue",
       "Implemented a new feature in an unfamiliar domain within two weeks",
       "Independently implemented an n-tier application",
@@ -205,36 +215,38 @@ const engineeringTrack = {
   }, {
     "summary": "",
     "signals": [
-      "Is capable of correctly abstracting and designing an OOP project.",
-      "Can independently implement a complex application and basic infrastructure to support it",
-      "Can defend technological choices using complexity analysis and contrast comparison",
-      "Can research and introduce a new technology stack",
-      "Has written numerous applications of multiple business domains and is knowledgable in technological considerations of each domain",
-      "Capable of specifying technical requirements for security and performance concerns",
-      "Able to implement code and upgrade existing code so that it has a low cost of introducing future changes",
+      "Implementation provides for abstraction and business domain considerations",
+      "Technological choices are made through requirements and a consideration of costs, future maintenance and technological trade-offs",
+      "Written numerous applications of multiple business domains and technical domains",
+      "Implementation actively handles non-functional requirements such as security or performance",
+      "Implementations are future proofed so that changes are easily introduced",
       "Epics do not generate any after-bugs"
     ],
     "examples": [
+      "Research and introduce a new technology stack",
       "Completed a large effort without generating any bugs after release",
       "Defined clear implementation guidelines to mitigate a non-functional concern",
       "Is able to research and optimize a legacy code application.",
-      "Successully add or modify a major feature on an unfamiliar legacy application in two weeks",
-
+      "Successfully add or modify a major feature on an unfamiliar legacy application in two weeks",
+      "Large epic delivered without any bugs created during Monitoring stage",
+      "Hand over of a complicated feature went without a hitch"
     ],
   }, {
     "summary": "",
     "signals": [
-      "Is capable of correctly abstracting and designing an OOP project.",
-      "Can independently implement a complex application and an enterprise-ready infrastructure to support it",
-      "Can defend technological choices and can write academic-level articles and theorems",
-      "Can research, develop and introduce a new technology stack",
-      "Has written numerous applications of multiple business domains and is knowledgable in technological considerations of each domain",
-      "Capable of specifying technical requirements for security and performance concerns - which won't be needed because his code will already have been optimized and hardened",
-      "Able to implement code, upgrade existing code and teach other developers so that applications in the department have a low cost of introducing future changes",
+      "Implementation is abstracted just right for a business domain which turns out to fit *another* business domain",
+      "Technological choices are made through requirements, a consideration of trade-offs and an uncanny understanding of the future",
+      "Written numerous applications of multiple industries",
+      "Implementation provides dynamic controls for non-functional requirements such as security or performance",
+      "Implementations are future proofed so that changes are easily introduced by anyone on the team",
+      "Epics do not generate any after-bugs and actually solved a few outstanding issues in the existing system"
     ],
     "examples": [
-      "Is able to research and optimize and improve a legacy code application.",
-      "Successully add or modify a feature on an unfamiliar legacy application with no repercussions or unexpected results in two weeks.",
+      "Research and optimize and improve a legacy code application.",
+      "New feature implementation delivered on requirements and actually provided on an unplanned requirement later on",
+      "Application can shift its emphasis on security, performance or functionality with configuration changes or a simple set of access controls",
+      "Done is really, actually, done",
+      "Hand over of a complicated system was unnecessary - the other team didn't need any hand holding"
     ]
   }],
 };

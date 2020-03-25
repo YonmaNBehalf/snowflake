@@ -5,7 +5,6 @@ const independenceTrack = {
   "milestones": [{
       "summary": "",
       "signals": [
-	      "Follows an implementation plan",
 	      "Requires guidance on basic implementation choices",
 	      "Does not handle surprises",
 	      "Does not take on any extra-curricular responsibilities",
@@ -15,9 +14,7 @@ const independenceTrack = {
   }, {
       "summary": "",
       "signals": [
-	      "Follows an implementation plan",
 	      "Resolves basic surprises and problems on the fly",
-	      "Seeks guidance to expand on the existing plan",
 	      "Uses the team's goals as a meter for personal progress",
 	      "Given course materials needs a study group to get any value",
 	      "Learns superficial business domain considerations",
@@ -33,9 +30,7 @@ const independenceTrack = {
   }, {
       "summary": "",
       "signals": [
-	      "Follows an implementation plan and adapt it on the fly",
 	      "Resolves minor surprises and problems during implementation",
-	      "Seeks guidance to expand on the existing plan and improve its end results",
 	      "Sets personal goals to measure progress",
 	      "Invests an hour a week at a single activity or project",
 	      "Source study materials and study them independently",
@@ -53,14 +48,12 @@ const independenceTrack = {
   }, {
       "summary": "",
       "signals": [
-	      "Use a rudimentry implementation plan, complete its details and adapt it on the fly",
-	      "Able to resolve major surprises and problems during implementation",
-	      "Seeks guidance to expand on the existing plan and optimizes its end results",
+	      "Resolve major surprises and problems during implementation",
 	      "Tracks personal goals to completion",
-	      "Invests an hour a week at a single activity or project that promotes the department goals",
-	      "Learns business domain nuanced considerations and is able to identify and focus on important aspects of an assignment",
-		  "Stories shrink in size and epics are completed with a minimum of changes",
-	      "Research is comprehensive but still allows efforts to shift direction quickly without impacting delivery time"
+	      "Invests an hour a week at a single activity or project that promotes the team goals",
+	      "Learns business domain nuanced considerations and identifies important aspects of an assignment",
+	      "Economic and frugal with code changes",
+	      "Contributes to research efforts in most of the stack",
       ],
       "examples": [
 	      "Completed an epic with minimum Product Research",
@@ -71,14 +64,21 @@ const independenceTrack = {
   }, {
       "summary": "",
       "signals": [
-	      "Drives department and personal goals without disrupting others' work",
-	      "Is not surprised by anything. Very Zen",
+	      "Resolve major surprises and problems during implementation without impacting productivity",
+	      "Tracks personal goals to completion",
+	      "Invests an hour a week at a single activity or project that promotes the department goals",
+	      "Learns business domain nuanced considerations and focuses on the important aspects of an assignment",
+	      "Actual change is the optimal balance of value, impact, cost",
+	      "Researches the entire stack from Browser to the persistence layers",
 	      "Career path is planned in detail with target dates for outrageous yet somehow sensible goals",
-	      "Product objectives are achieved with no code changes",
 	      "Contributes to business domain understanding of the company through keen insight and analysis"
       ],
       "examples": [
-	      "Like, wow.",
+	      "Stories shrink in size and epics are completed with a minimum of changes",
+	      "Completed an epic with minimum Product Research",
+	      "Kept project timeline and ETA despite a major change in requirements",
+	      "Used a weekly hour to implement a better automation solution for a department process",
+	      "Mastered a knowledge domain",
       ],
   }],
 };

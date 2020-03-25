@@ -12,29 +12,29 @@ const initiativeTrack = {
   }, {
       "summary": "",
       "signals": [
+      	"Generally aware of own pains",
 	      "Think up a limited solution to a problem we could not completely solve otherwise",
-	      "Actively pursue assistance with peers in urgent objectives",
-		  "Propose and implement a minor change to a team process",
-		  "Over the course of a month make a creative suggestion to a team issue that is adopted",
-		  "Sometimes surfaces problems for discussion in private even when appropriate to be made public",
 		  "Makes at least a minor contribution in retrospective meetings"
       ],
       "examples": [
+	      "Sometimes surfaces problems for discussion in private even when appropriate to be made public",
+	      "Over the course of a month make a creative suggestion to a team issue that is adopted",
+	      "Propose and implement a minor change to a team process",
 	      "Created an automated script that saves a developer 30 minutes of manual work",
 	      "Proposed a process correction in retrospective",
       ],
   }, {
       "summary": "",
       "signals": [
-	      "Think up a creative partial solution to a problem we could not completely solve otherwise",
-	      "Actively pursue assistance with peers in urgent objectives without derailing their own work",
-	      "Able to motivate others to resolve issues to promote broad objectives",
-	      "Propose and implement a meaningful change to a team process",
-	      "Make a creative suggestion to a minor department issue that is adopted",
+      	"Aware of peers' pains and is willing to do something about it",
+	      "Motivates others to resolve issues to promote broad objectives",
 	      "Makes a major contribution in retrospective meetings and discusses others' concerns",
 	      "Promoted an aspect of the company brand in a limited way"
       ],
       "examples": [
+	      "Think up a creative partial solution to a problem we could not completely solve otherwise",
+	      "Make a creative suggestion to a minor department issue that is adopted",
+	      "Propose and implement a meaningful change to a team process",
 	      "Created an automated script that saves a developer 2 hours of manual work",
 	      "Initiated a short brainstorm session to solve a technical issue",
 	      "Solved a small department-wide minor nuisance",
@@ -43,15 +43,15 @@ const initiativeTrack = {
   }, {
       "summary": "",
       "signals": [
+	      "Aware of department-afflicting pains and presented ways to improve",
 	      "Think up a creative, nearly complete solution to a challenging problem",
-	      "Actively pursue assistance with peers in urgent objectives without derailing their own work",
-	      "Able to motivate others to resolve issues to promote broad objectives",
-	      "Propose and implement a full team process",
-	      "Make a creative suggestion to a major company issue that is adopted",
+	      "Motivates others to resolve issues to promote broad objectives",
 	      "Brings about team & process improvement at retrospective meetings and brings new insight into team and personal concerns",
 	      "Promoted the company brand publicly"
       ],
       "examples": [
+	      "Make a creative suggestion to a major company issue that is adopted",
+	      "Propose and implement a full team process",
 	      "Created a full solution to a department-wide problem",
 	      "Used the weekly hour to drive a long term team goal to completion",
 	      "Suggested a creative solution to a company goal",
@@ -60,10 +60,17 @@ const initiativeTrack = {
   }, {
       "summary": "",
       "signals": [
+	      "Aware of company-stopping pains and somehow solved them",
 	      "Promoted the company brand in a global capacity",
 	      "Created a systemic solution to resolve a major company limitation",
+	      "Does not derail others' work in order to pursue own goals",
+	      "Able to motivate others to resolve issues to promote broad objectives",
+	      "Brings about team & process improvement at retrospective meetings and brings new insight into team and personal concerns",
+
       ],
       "examples": [
+	      "Make a creative suggestion to a major company issue that is adopted",
+	      "Propose and implement a full team process",
 	      "Solved the company's Compliance problems so that we need just a first name to give a credit line",
 	      "Open sourced all of the company's not-classified codebase",
 	      "Got a Super Bowl spot for a Behalf commercial starring Sasha Baron Cohen",
