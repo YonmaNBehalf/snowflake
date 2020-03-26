@@ -15,6 +15,7 @@ const independenceTrack = {
       "summary": "",
       "signals": [
 	      "Resolves basic surprises and problems on the fly",
+	      "Learned about the business context of the current effort to better understand the goal for a story",
 	      "Uses the team's goals as a meter for personal progress",
 	      "Given course materials needs a study group to get any value",
 	      "Learns superficial business domain considerations",
@@ -25,20 +26,19 @@ const independenceTrack = {
 	      "Contributed in a meaningful way to an epic",
 	      "Had stories that started out as 'simple' and ended up taking much more effort",
 	      "Delved into an epic's research documents to work on its stories",
-	      "Learned about the business context of the current effort to better understand the goal for a story",
       ],
   }, {
       "summary": "",
       "signals": [
 	      "Resolves minor surprises and problems during implementation",
+	      "Learns basic business domain considerations and is able to generally identify obviously important aspects of an assignment",
 	      "Sets personal goals to measure progress",
 	      "Invests an hour a week at a single activity or project",
-	      "Source study materials and study them independently",
-	      "Learns basic business domain considerations and is able to generally identify obviously important aspects of an assignment",
 	      "Stories rarely inflate and epics keep their focus during work",
-	      "Research can be adapted and modified on the fly to fit new insights and circumstances with some minimal impact"
       ],
       "examples": [
+	      "Research can be adapted and modified on the fly to fit new insights and circumstances with some minimal impact",
+	      "Source study materials and study them independently",
 	      "Contributed to an epic and was able to adapt it on their own to overcome a technical difficulty without impacting others around them",
 	      "As an epic owner they were able to adapt the general plan to dynamic product circumstances",
 	      "Manages own career path using measurable goals",
@@ -50,12 +50,12 @@ const independenceTrack = {
       "signals": [
 	      "Resolve major surprises and problems during implementation",
 	      "Tracks personal goals to completion",
-	      "Invests an hour a week at a single activity or project that promotes the team goals",
 	      "Learns business domain nuanced considerations and identifies important aspects of an assignment",
+	      "Invests an hour a week at a single activity or project that promotes the team goals",
 	      "Economic and frugal with code changes",
-	      "Contributes to research efforts in most of the stack",
       ],
       "examples": [
+	      "Contributes to research efforts in most of the stack",
 	      "Completed an epic with minimum Product Research",
 	      "Kept project timeline and ETA despite a major change in requirements",
 	      "Used a weekly hour to implement a better automation solution for a department process",
@@ -70,10 +70,10 @@ const independenceTrack = {
 	      "Learns business domain nuanced considerations and focuses on the important aspects of an assignment",
 	      "Actual change is the optimal balance of value, impact, cost",
 	      "Researches the entire stack from Browser to the persistence layers",
-	      "Career path is planned in detail with target dates for outrageous yet somehow sensible goals",
-	      "Contributes to business domain understanding of the company through keen insight and analysis"
       ],
       "examples": [
+	      "Contributes to business domain understanding of the company through keen insight and analysis",
+	      "Career path is planned in detail with target dates for outrageous yet somehow sensible goals",
 	      "Stories shrink in size and epics are completed with a minimum of changes",
 	      "Completed an epic with minimum Product Research",
 	      "Kept project timeline and ETA despite a major change in requirements",

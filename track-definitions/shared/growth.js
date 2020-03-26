@@ -42,7 +42,6 @@ const researchTrack = {
 		"summary": "",
 		"signals": [
 			"Implementation uses newly acquired skills or concepts",
-			"Master a new business domain in a few weeks",
 			"Research products are in-depth and detailed for the implementation of a large feature or a non-trivial change",
 			"Correctly estimates the planned work for a large feature to within one week",
 			"Implementation exposes hidden assumptions and attempts to work them out or challenge them",
@@ -51,6 +50,7 @@ const researchTrack = {
 			"Isolates risk into clear parts of the effort. Some of these parts can be provided for. The risk is defined up to a point"
 		],
 		"examples": [
+			"Master a new business domain in a few weeks",
 			"Implemented a feature for the first time in a new technical domain",
 			"Prepared the Model and implementation of a new Domain Service within a new Business domain",
 			"Correctly estimated an epic's efforts",
@@ -61,7 +61,6 @@ const researchTrack = {
 		"summary": "",
 		"signals": [
 			"Implementation uses new skills, technology or abstract concepts",
-			"Master a technical domain in a week",
 			"Research a project made up of several epics and its integration points",
 			"Implementation plan details are updated during the project and provide clear insight into changes and surprises",
 			"Effort was correctly estimated beforehand and provided for surprises and changes",
@@ -71,6 +70,7 @@ const researchTrack = {
 
 		],
 		"examples": [
+			"Master a technical domain in a week",
 			"Implementation plan is updated and kept correct for future reference",
 			"Researched non-functional considerations of an epic that affected implementation decisions",
 			"Epic implementation did not generate any technical debt",

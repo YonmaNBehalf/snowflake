@@ -26,11 +26,11 @@ const ownershipTrack = {
       "Takes up responsibility for a small or limited domain",
       "Assists in code reviews for own domains",
       "Establishes coding conventions for own domain but rarely enforces them",
-      "Responsible for a story's research, implementation and testing",
       "Knows enough about an epic's considerations to make soft choices",
       "Tells apart urgent assignments from day-to-day priorities and acts on them first",
     ],
     "examples": [
+      "Responsible for a story's research, implementation and testing",
       "Took up responsibility for a small system domain or 3rd party system",
       "Regularly did code reviews for peers",
       "Defined as a small scale implementation plan",
@@ -42,12 +42,12 @@ const ownershipTrack = {
       "Collaborates with developers in the domain",
       "Consistently conducts knowledge sharing with others",
       "Enforces coding conventions in a reasonable and flexible manner",
-      "Responsible for a small Epic's research, planning, implementation, testing and release",
       "Participates in others' assignments planning",
       "Knows about an epic's context to lead decision making process",
       "Uses a priorities ladder of assignments to make good choices about work plans",
     ],
     "examples": [
+      "Responsible for a small Epic's research, planning, implementation, testing and release",
       "Regularly assisted other developers in development work in owned domain",
       "Trained others in domain concerns and business knowledge",
     ],
@@ -59,12 +59,12 @@ const ownershipTrack = {
       "Explores initiatives to promote company activities through the owned domain capabilities",
       "Teaches others about domain activities ",
       "Enforces coding conventions in a reasonable ",
-      "Responsible for a large Epic's research, planning, implementation, testing and release",
       "Participates in others' assignments research and planning",
       "Makes tactical decisions based on an awareness of an epic's considerations",
       "Uses priorities to effectively allocate time and attention to assignments",
     ],
     "examples": [
+      "Responsible for a large Epic's research, planning, implementation, testing and release",
       "Halted sub-par code from being pushed into the domain",
       "Promotes and teaches domain's conventions to others that work within it",
       "Conducted a large epic's research",
@@ -77,12 +77,12 @@ const ownershipTrack = {
       "Explores initiatives to promote company activities through the owned domain such as new products and capabilities",
       "Teaches others about domain activities and shares detailed knowledge about the domain",
       "Enforces coding conventions in a reasonable and flexible manner and constantly refines them",
-      "Responsible for a project's research, planning, implementation, testing and release",
       "Promotes others' research and planning abilities",
       "Makes strategic decisions based on an intimate awareness of an epic's considerations and business case",
       "Uses priorities to effectively allocate time and attention to assignments",
     ],
     "examples": [
+      "Responsible for a project's research, planning, implementation, testing and release",
       "Involved in an external change within the business domain (maybe not in the technical domain)",
       "Revamped a domain's set of conventions and standards. Refactored its code to fit the new set.",
       "Guide others in research and is involved as a knowledge focus in research that touches on this domain",
@@ -182,13 +182,13 @@ const engineeringTrack = {
   }, {
     "summary": "",
     "signals": [
-      "Study an existing system and become productive in a few days",
       "Independently implement a simple application and integrate it to an external service",
       "Can carry a basic technical discussion or understand basic technological articles",
-      "Has written a few applications in at least one business domain",
       "Aware of security or performance concerns"
     ],
     "examples": [
+      "Has written a few applications in at least one business domain",
+      "Study an existing system and become productive in a few days",
       "Became productive in an unfamiliar legacy application in two weeks",
       "Studied, Integrated a 3rd party application and configured it for use",
       "Spotted an obvious security concern in own code",
@@ -199,11 +199,11 @@ const engineeringTrack = {
       "Solves non-functional application issues",
       "Reasons about existing code and legacy",
       "Technological choices are made through realization of needs and environment",
-      "Written numerous applications of multiple business domains",
       "Code demonstrates awareness of security & performance concerns",
       "Implementations are future proofed"
     ],
     "examples": [
+      "Written numerous applications of multiple business domains",
       "Successfully add or modify a minor feature on an unfamiliar application in reasonable time",
       "Implement code that has a low cost of introducing future changes, as those are currently understood",
       "Research and introduce a new technology or sub-system",
@@ -217,12 +217,12 @@ const engineeringTrack = {
     "signals": [
       "Implementation provides for abstraction and business domain considerations",
       "Technological choices are made through requirements and a consideration of costs, future maintenance and technological trade-offs",
-      "Written numerous applications of multiple business domains and technical domains",
       "Implementation actively handles non-functional requirements such as security or performance",
       "Implementations are future proofed so that changes are easily introduced",
       "Epics do not generate any after-bugs"
     ],
     "examples": [
+      "Written numerous applications of multiple business domains and technical domains",
       "Research and introduce a new technology stack",
       "Completed a large effort without generating any bugs after release",
       "Defined clear implementation guidelines to mitigate a non-functional concern",
@@ -236,12 +236,12 @@ const engineeringTrack = {
     "signals": [
       "Implementation is abstracted just right for a business domain which turns out to fit *another* business domain",
       "Technological choices are made through requirements, a consideration of trade-offs and an uncanny understanding of the future",
-      "Written numerous applications of multiple industries",
       "Implementation provides dynamic controls for non-functional requirements such as security or performance",
       "Implementations are future proofed so that changes are easily introduced by anyone on the team",
       "Epics do not generate any after-bugs and actually solved a few outstanding issues in the existing system"
     ],
     "examples": [
+      "Written numerous applications of multiple industries",
       "Research and optimize and improve a legacy code application.",
       "New feature implementation delivered on requirements and actually provided on an unplanned requirement later on",
       "Application can shift its emphasis on security, performance or functionality with configuration changes or a simple set of access controls",
