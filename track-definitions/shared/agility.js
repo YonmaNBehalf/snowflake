@@ -37,6 +37,9 @@ const independenceTrack = {
 	      "Stories rarely inflate and epics keep their focus during work",
       ],
       "examples": [
+      	  "Feedback from product: very high throughput and flexibility",
+      	  "Time planning on last two days that are intense before trip, driving the epic’s various aspects to completion",
+	      "Created our own requirements because the ones provided were vague",
 	      "Research can be adapted and modified on the fly to fit new insights and circumstances with some minimal impact",
 	      "Source study materials and study them independently",
 	      "Contributed to an epic and was able to adapt it on their own to overcome a technical difficulty without impacting others around them",
@@ -55,6 +58,7 @@ const independenceTrack = {
 	      "Economic and frugal with code changes",
       ],
       "examples": [
+      	  "Pushing the epic away from secondary objective and clarified domain separation",
 	      "Contributes to research efforts in most of the stack",
 	      "Completed an epic with minimum Product Research",
 	      "Kept project timeline and ETA despite a major change in requirements",

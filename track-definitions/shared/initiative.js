@@ -16,6 +16,7 @@ const initiativeTrack = {
 		  "Makes at least a minor contribution in retrospective meetings"
       ],
       "examples": [
+	      "Introduced personal automation of frontend php developer image",
 	      "Think up a limited solution to a problem we could not completely solve otherwise",
 	      "Sometimes surfaces problems for discussion in private even when appropriate to be made public",
 	      "Over the course of a month make a creative suggestion to a team issue that is adopted",
@@ -32,6 +33,7 @@ const initiativeTrack = {
 	      "Promoted an aspect of the company brand in a limited way"
       ],
       "examples": [
+      	  "Discussion about story structure and story writing",
 	      "Think up a creative partial solution to a problem we could not completely solve otherwise",
 	      "Make a creative suggestion to a minor department issue that is adopted",
 	      "Propose and implement a meaningful change to a team process",

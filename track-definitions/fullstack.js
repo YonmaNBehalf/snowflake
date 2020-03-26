@@ -65,6 +65,7 @@ const ownershipTrack = {
     ],
     "examples": [
       "Responsible for a large Epic's research, planning, implementation, testing and release",
+      "CLI in the Embedded App (Manual Upload) Large Complex Epic, w/Hand over, 8 bugs August 4 started, September 24 dev done",
       "Halted sub-par code from being pushed into the domain",
       "Promotes and teaches domain's conventions to others that work within it",
       "Conducted a large epic's research",
@@ -148,6 +149,7 @@ const codingTrack = {
       "Leverages existing dev automation, proactively introduces new dev automation as part of her routine",
     ],
     "examples": [
+      "Found a creative way to work around codebase limitations so workflow ui can be displayed in different modes without duplicate code",
       "Wrote a feature solution that is extensible and open to changes",
       "Created IDE and personal automation which helps others in the department",
       "Rebased and merged a complex set of conflicting changes",
@@ -203,6 +205,7 @@ const engineeringTrack = {
       "Implementations are future proofed"
     ],
     "examples": [
+      "Simple solution that relies on the existing application capabilities",
       "Written numerous applications of multiple business domains",
       "Successfully add or modify a minor feature on an unfamiliar application in reasonable time",
       "Implement code that has a low cost of introducing future changes, as those are currently understood",

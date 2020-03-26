@@ -11,9 +11,11 @@ const researchTrack = {
 			"Research scope is very small and does not extend to an entire effort",
 			"Documents are short, basic, vague or lack sufficient context",
 			"Chosen implementation plan is naive or completely ignores underlying assumptions",
-			"Estimates are very rough generalizations or completely wrong"
+			"Estimates are very rough generalizations or completely wrong",
+			"Research scope does not fit the time frame in which it was completed"
 		],
 		"examples": [
+			"Small research got delayed and stretched for too long to be of value",
 			"Plans implementation for a story",
 			"Research document only makes sense to the author",
 			"The research document will make sense only in the next few minutes. Future us will not make any sense of it",
@@ -28,9 +30,11 @@ const researchTrack = {
 			"T-shirt estimates are generally correct",
 			"Planned execution sometimes generates unexpected technical debt that can be handled later",
 			"Implementation plan addresses some hidden assumptions in advance",
-			"Isolates risk into general or unclear definitions that still have blocking dependencies. The risk is vaguely defined"
+			"Isolates risk into general or unclear definitions that still have blocking dependencies. The risk is vaguely defined",
+			"Research scope does not fit the time frame but achieved all requirements"
 		],
 		"examples": [
+			"Research took a long time but provided its full value",
 			"Wrote a basic implementation plan for a small single layer epic",
 			"Participated regularly in code reviews for peers",
 			"Studied a technological topic for use or training",
@@ -47,7 +51,8 @@ const researchTrack = {
 			"Implementation exposes hidden assumptions and attempts to work them out or challenge them",
 			"Planned execution generates unexpected technical debt that can be generally be postponed",
 			"Applies basic domain knowledge concepts to make reasonable research assumptions",
-			"Isolates risk into clear parts of the effort. Some of these parts can be provided for. The risk is defined up to a point"
+			"Isolates risk into clear parts of the effort. Some of these parts can be provided for. The risk is defined up to a point",
+			"Research scope fits the goal and is achieved in a reasonable time-frame"
 		],
 		"examples": [
 			"Master a new business domain in a few weeks",
@@ -55,7 +60,8 @@ const researchTrack = {
 			"Prepared the Model and implementation of a new Domain Service within a new Business domain",
 			"Correctly estimated an epic's efforts",
 			"Created a detailed implementation plan for a large epic",
-			"Completed partial research goal based on domain assumptions"
+			"Completed partial research goal based on domain assumptions",
+			"A large research effort took a long time to complete, a short one took a short time"
 		],
 	}, {
 		"summary": "",
@@ -66,14 +72,15 @@ const researchTrack = {
 			"Effort was correctly estimated beforehand and provided for surprises and changes",
 			"Planned execution rarely generates unexpected technical debt",
 			"Hidden assumptions are challenged or mitigated in such a way as to pave the road for simplified implementation",
-			"Risk is isolated into clear work packages that can be worked around. The risk is defined comprehensively with additional mitigation"
-
+			"Risk is isolated into clear work packages that can be worked around. The risk is defined comprehensively with additional mitigation",
+			"Research scope is handled dynamically to fit requirements and value within a short time-frame"
 		],
 		"examples": [
 			"Master a technical domain in a week",
 			"Implementation plan is updated and kept correct for future reference",
 			"Researched non-functional considerations of an epic that affected implementation decisions",
 			"Epic implementation did not generate any technical debt",
+			"Salami research style: Epic started quickly with parts of the implementation planned"
 		],
 	}, {
 		"summary": "",
@@ -82,8 +89,8 @@ const researchTrack = {
 			"Implementation plan is simple, accounts for everything and includes contingencies for the eventual imperfections of the human condition",
 			"Estimates are perfect to the minute and account for bathroom breaks and long lunches in cookie",
 			"There are no hidden assumptions down the electric charge of an electron",
-			"Risk? What is Risk?"
-
+			"Risk? What is Risk?",
+			"Research scope is handled dynamically to optimise for value within a set time-frame"
 		],
 	}],
 };

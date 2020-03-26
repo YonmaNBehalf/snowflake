@@ -13,6 +13,9 @@ const teamworkTrack = {
 				"Ignores feedback from peers",
 				"Does not communicate about commitments that peers depend on"
 			],
+			"examples": [
+				"Became defensive and unproductive in a discussion with management about an issue in production. Focused on blame instead of actually answering questions"
+			]
 		}, {
 			"summary": "Teamwork starts with communication",
 			"signals": [
@@ -24,6 +27,8 @@ const teamworkTrack = {
 				"Generally indicates if there is a problem in a commitment to someone else"
 			],
 			"examples": [
+				"Using slack time in own effort to push other team priorities",
+				"Feedback: Leadership in the effort was “fine”. Felt that leader was missing a clear understanding",
 				"An owned Epic has stories for consumption",
 				"Participates in knowledge sharing",
 				"Made minimal corrections indicated by peer feedback"
@@ -41,6 +46,9 @@ const teamworkTrack = {
 				"Effectively communicates ongoing status of commitments, in particular when these are dependencies for others",
 			],
 			"examples": [
+				"Opened up delicate topic for discussion with the team",
+				"Most code reviews done within an hour",
+				"Responded compassionately and with empathy, awareness is key",
 				"Leverages feedback and comments to improve deliveries",
 				"Stories can be used by peers as a clear reference to collaboration",
 				"Effectively brainstorm a great solution to a problem with colleagues",
@@ -64,12 +72,14 @@ const teamworkTrack = {
 				"Manages up; provides information, insight and analysis to make decision making easier"
 			],
 			"examples": [
+				"Corrected my misconceptions about orphan-contacts and invitations",
 				"Promotes the team's greater goals from assignments and personal efforts",
 				"Provides alternatives on commitments that cannot be kept",
 				"Personal hour invested into tools that will improve the team's day-to-day",
 				"Actively works with peers to promote them professionally and learn from the experience",
 				"Shares the burden of urgent assignments with the assignee in unusual circumstances",
-				"Improvement based on feedback is made into a journey useful for future efforts and other people"
+				"Improvement based on feedback is made into a journey useful for future efforts and other people",
+				"Feedback from Team leader: impressive growth, leadership and independence",
 			],
 		}, {
 			"summary": "",
@@ -84,6 +94,7 @@ const teamworkTrack = {
 				"Manages up; provides information, insight and analysis to make decision making easier"
 			],
 			"examples": [
+				"Pushing cis during the night to allow the team to advance when ci is sluggish during the day",
 				"Knows and understands the business reasoning behind other collaborators' work",
 				"Reduces friction in collaboration with and for other team members through conduct and grace",
 				"Gives feedback to promote a personal and team improvement cycle",
@@ -137,6 +148,8 @@ const mentoringTrack = {
 				"Creates psychological safety for open personal conversations and for others to discuss difficult topics",
 			],
 			"examples": [
+				"Paced meeting about debriefings to keep it moving, pushed own agenda",
+				"Received feedback: excellent teaching skill. Details oriented, caring and take the time to make sure everyone is on the same page in all details",
 				"Acted as guide for a new colleague through his first month at Behalf",
 				"Conducted a training session for his own team",
 				"Presented a topic they know well in a knowledge sharing or meetup",
@@ -162,8 +175,8 @@ const mentoringTrack = {
 				"Planned and executed a training session for the department",
 				"Lead the onboarding effort of a new employee so that they got to productivity earlier than anticipated",
 				"Gives feedback and coaches peers about conduct, opinions about choices and passes constructive criticism",
-				"Code reviews include: Clean code, eye for details, maintainability, code & model design, names and domain considerations, story-logic matching, functional issues, clarity, conventions, insight, structure issues, implementation reasoning, questioning assumptions"
-
+				"Code reviews include: Clean code, eye for details, maintainability, code & model design, names and domain considerations, story-logic matching, functional issues, clarity, conventions, insight, structure issues, implementation reasoning, questioning assumptions",
+				"Demonstrated attitude towards a process: you tested it for value and made it better"
 			],
 		}, {
 			"summary": "There is no spoon",

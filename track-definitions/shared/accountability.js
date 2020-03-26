@@ -35,6 +35,7 @@ const motivationTrack = {
 	      "Active participant in most meetings. Offers opinions and options"
       ],
       "examples": [
+      	  "Epic done before leaving on vacation",
 	      "Handles difficulties by addressing them directly or by leveraging others' expertise",
 	      "Honestly reports on problems and actively attempts to learn from incidents",
 	      "Colleagues know and understand their current effort's progress",
@@ -122,6 +123,7 @@ const thoroughnessTrack = {
 			"Effort status is communicated in a single medium"
 		],
 		"examples": [
+			"Gave me clear agenda items for effort with another team",
 			"A one-sentence epic requirements description were elaborated upon",
 			"Planning took into account prior efforts in the domain",
 			"Properly cleaned up, or at least accounted for deferred cleanup after a complex and tech-debt epic",
@@ -146,6 +148,7 @@ const thoroughnessTrack = {
 			"Effort updates use one appropriate medium such as verbal, messages, issue tickets or others"
 		],
 		"examples": [
+			"Provided for testing issues in advance and set up monitoring to manage the situation",
 			"Created a research document and schematics for the implementation aspects of an effort",
 			"Quarter's epics were completed with only a few technical debt items or bugs",
 			"A Bug's diagnosis included underlying root cause and not only the superficial issue",
